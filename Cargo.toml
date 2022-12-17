@@ -1,0 +1,53 @@
+[package]
+name = "ra-bug"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+icu_provider = { version = "1.0.1", features = ["serde", "sync"] }
+icu_provider_blob = "1.0.0"
+icu_provider_adapters = "1.0.0"
+icu_datagen = { version = "1.0.2", optional = true }
+log = { version = "0.4.17", optional = true }
+simple_logger = { version = "4.0.0", optional = true }
+
+# databake options
+icu_calendar = { version = "1.0.0", default-features = false, optional = true }
+icu_collator = { version = "1.0.0", default-features = false, optional = true }
+icu_collections = { version = "1.0.0", default-features = false, optional = true }
+icu_datetime = { version = "1.0.0", default-features = false, optional = true }
+icu_decimal = { version = "1.0.0", default-features = false, optional = true }
+icu_list = { version = "1.0.0", default-features = false, optional = true }
+icu_locid = { version = "1.0.0", default-features = false, optional = true }
+icu_locid_transform = { version = "1.0.0", default-features = false, optional = true }
+icu_normalizer = { version = "1.0.0", default-features = false, optional = true }
+icu_plurals = { version = "1.0.0", default-features = false, optional = true }
+icu_properties = { version = "1.0.0", default-features = false, optional = true }
+icu_timezone = { version = "1.0.0", default-features = false, optional = true }
+litemap = { version = "0.6.0", default-features = false }
+zerovec = { version = "0.9.1"}
+
+[features]
+default = [
+    "icu_calendar",
+    "icu_collator",
+    "icu_collections",
+    "icu_datetime",
+    "icu_decimal",
+    "icu_list",
+    "icu_locid",
+    "icu_locid_transform",
+    "icu_normalizer",
+    "icu_plurals",
+    "icu_properties",
+    "icu_timezone",
+]
+std = []
+bin = ["dep:icu_datagen", "dep:simple_logger", "dep:log", "std"]
+
+[[bin]]
+name = "datagen"
+path = "src/bin/datagen.rs"
+required-features = ["bin"]
