@@ -1,0 +1,30 @@
+::icu_datetime::provider::time_zones::TimeZoneFormatsV1 {
+    hour_format: (
+        alloc::borrow::Cow::Borrowed("+HH:mm"),
+        alloc::borrow::Cow::Borrowed("-HH:mm"),
+    ),
+    gmt_format: alloc::borrow::Cow::Borrowed("GMT{0}"),
+    gmt_zero_format: alloc::borrow::Cow::Borrowed("GMT"),
+    region_format: alloc::borrow::Cow::Borrowed("Giờ {0}"),
+    region_format_variants: unsafe {
+        #[allow(unused_unsafe)]
+        ::zerovec::ZeroMap::from_parts_unchecked(
+            unsafe {
+                ::zerovec::ZeroVec::from_bytes_unchecked(&[
+                    100u8, 97u8, 121u8, 108u8, 105u8, 103u8, 104u8, 116u8, 115u8, 116u8, 97u8,
+                    110u8, 100u8, 97u8, 114u8, 100u8,
+                ])
+            },
+            unsafe {
+                ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                    2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 18u8, 0u8, 71u8, 105u8, 225u8, 187u8, 157u8,
+                    32u8, 109u8, 195u8, 185u8, 97u8, 32u8, 104u8, 195u8, 168u8, 32u8, 123u8,
+                    48u8, 125u8, 71u8, 105u8, 225u8, 187u8, 157u8, 32u8, 99u8, 104u8, 117u8,
+                    225u8, 186u8, 169u8, 110u8, 32u8, 123u8, 48u8, 125u8,
+                ])
+            },
+        )
+    },
+    fallback_format: alloc::borrow::Cow::Borrowed("{1} ({0})"),
+    gmt_offset_fallback: alloc::borrow::Cow::Borrowed("GMT+?"),
+}

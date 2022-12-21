@@ -1,0 +1,29 @@
+::icu_datetime::provider::time_zones::MetazoneGenericNamesShortV1 {
+    defaults: unsafe {
+        #[allow(unused_unsafe)]
+        ::zerovec::ZeroMap::from_parts_unchecked(
+            unsafe { ::zerovec::ZeroVec::from_bytes_unchecked(&[104u8, 97u8, 97u8, 108u8]) },
+            unsafe {
+                ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                    1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 72u8, 65u8, 84u8,
+                ])
+            },
+        )
+    },
+    overrides: unsafe {
+        #[allow(unused_unsafe)]
+        ::zerovec::ZeroMap::from_parts_unchecked(
+            unsafe {
+                ::zerovec::ZeroVec::from_bytes_unchecked(&[
+                    117u8, 116u8, 99u8, 0u8, 0u8, 0u8, 0u8, 0u8,
+                ])
+            },
+            unsafe {
+                ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                    1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 87u8, 97u8, 113u8, 116u8, 105u8, 103u8, 97u8,
+                    32u8, 85u8, 84u8, 67u8,
+                ])
+            },
+        )
+    },
+}

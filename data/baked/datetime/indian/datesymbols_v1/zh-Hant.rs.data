@@ -1,0 +1,141 @@
+::icu_datetime::provider::calendar::DateSymbolsV1 {
+    months: ::icu_datetime::provider::calendar::months::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::months::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("制檀邏月"),
+                alloc::borrow::Cow::Borrowed("吠舍佉月"),
+                alloc::borrow::Cow::Borrowed("逝瑟吒月"),
+                alloc::borrow::Cow::Borrowed("頞沙荼月"),
+                alloc::borrow::Cow::Borrowed("室羅伐拏月"),
+                alloc::borrow::Cow::Borrowed("婆羅鉢陀月"),
+                alloc::borrow::Cow::Borrowed("頞涇縛庚闍月"),
+                alloc::borrow::Cow::Borrowed("迦剌底迦月"),
+                alloc::borrow::Cow::Borrowed("末伽始羅月"),
+                alloc::borrow::Cow::Borrowed("報沙月"),
+                alloc::borrow::Cow::Borrowed("磨祛月"),
+                alloc::borrow::Cow::Borrowed("頗勒窶拏月"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("1"),
+                alloc::borrow::Cow::Borrowed("2"),
+                alloc::borrow::Cow::Borrowed("3"),
+                alloc::borrow::Cow::Borrowed("4"),
+                alloc::borrow::Cow::Borrowed("5"),
+                alloc::borrow::Cow::Borrowed("6"),
+                alloc::borrow::Cow::Borrowed("7"),
+                alloc::borrow::Cow::Borrowed("8"),
+                alloc::borrow::Cow::Borrowed("9"),
+                alloc::borrow::Cow::Borrowed("10"),
+                alloc::borrow::Cow::Borrowed("11"),
+                alloc::borrow::Cow::Borrowed("12"),
+            ]),
+            short: None,
+            wide: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("制檀邏月"),
+                alloc::borrow::Cow::Borrowed("吠舍佉月"),
+                alloc::borrow::Cow::Borrowed("逝瑟吒月"),
+                alloc::borrow::Cow::Borrowed("頞沙荼月"),
+                alloc::borrow::Cow::Borrowed("室羅伐拏月"),
+                alloc::borrow::Cow::Borrowed("婆羅鉢陀月"),
+                alloc::borrow::Cow::Borrowed("頞涇縛庚闍月"),
+                alloc::borrow::Cow::Borrowed("迦剌底迦月"),
+                alloc::borrow::Cow::Borrowed("末伽始羅月"),
+                alloc::borrow::Cow::Borrowed("報沙月"),
+                alloc::borrow::Cow::Borrowed("磨祛月"),
+                alloc::borrow::Cow::Borrowed("頗勒窶拏月"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    weekdays: ::icu_datetime::provider::calendar::weekdays::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::weekdays::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("週日"),
+                alloc::borrow::Cow::Borrowed("週一"),
+                alloc::borrow::Cow::Borrowed("週二"),
+                alloc::borrow::Cow::Borrowed("週三"),
+                alloc::borrow::Cow::Borrowed("週四"),
+                alloc::borrow::Cow::Borrowed("週五"),
+                alloc::borrow::Cow::Borrowed("週六"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("日"),
+                alloc::borrow::Cow::Borrowed("一"),
+                alloc::borrow::Cow::Borrowed("二"),
+                alloc::borrow::Cow::Borrowed("三"),
+                alloc::borrow::Cow::Borrowed("四"),
+                alloc::borrow::Cow::Borrowed("五"),
+                alloc::borrow::Cow::Borrowed("六"),
+            ]),
+            short: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("日"),
+                alloc::borrow::Cow::Borrowed("一"),
+                alloc::borrow::Cow::Borrowed("二"),
+                alloc::borrow::Cow::Borrowed("三"),
+                alloc::borrow::Cow::Borrowed("四"),
+                alloc::borrow::Cow::Borrowed("五"),
+                alloc::borrow::Cow::Borrowed("六"),
+            ])),
+            wide: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("星期日"),
+                alloc::borrow::Cow::Borrowed("星期一"),
+                alloc::borrow::Cow::Borrowed("星期二"),
+                alloc::borrow::Cow::Borrowed("星期三"),
+                alloc::borrow::Cow::Borrowed("星期四"),
+                alloc::borrow::Cow::Borrowed("星期五"),
+                alloc::borrow::Cow::Borrowed("星期六"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    eras: ::icu_datetime::provider::calendar::Eras {
+        names: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 115u8, 97u8, 107u8, 97u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 229u8, 141u8, 176u8, 229u8, 186u8, 166u8,
+                        230u8, 155u8, 134u8,
+                    ])
+                },
+            )
+        },
+        abbr: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 115u8, 97u8, 107u8, 97u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 229u8, 141u8, 176u8, 229u8, 186u8, 166u8,
+                        230u8, 155u8, 134u8,
+                    ])
+                },
+            )
+        },
+        narrow: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 115u8, 97u8, 107u8, 97u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 229u8, 141u8, 176u8, 229u8, 186u8, 166u8,
+                        230u8, 155u8, 134u8,
+                    ])
+                },
+            )
+        },
+    },
+}

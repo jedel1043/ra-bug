@@ -2,6 +2,7 @@
 pub mod ahex_v1;
 pub mod alnum_v1;
 pub mod alpha_v1;
+pub mod basic_emoji_v1;
 pub mod bc_v1;
 pub mod bidi_c_v1;
 pub mod bidi_m_v1;
@@ -26,6 +27,7 @@ pub mod ecomp_v1;
 pub mod emod_v1;
 pub mod emoji_v1;
 pub mod epres_v1;
+pub mod exemplarchars;
 pub mod ext_v1;
 pub mod extpict_v1;
 pub mod gc_v1;

@@ -1,0 +1,147 @@
+::icu_datetime::provider::calendar::DateSymbolsV1 {
+    months: ::icu_datetime::provider::calendar::months::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::months::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("جنوری"),
+                alloc::borrow::Cow::Borrowed("فروری"),
+                alloc::borrow::Cow::Borrowed("مارچ"),
+                alloc::borrow::Cow::Borrowed("اپریل"),
+                alloc::borrow::Cow::Borrowed("مئی"),
+                alloc::borrow::Cow::Borrowed("جون"),
+                alloc::borrow::Cow::Borrowed("جولائی"),
+                alloc::borrow::Cow::Borrowed("اگست"),
+                alloc::borrow::Cow::Borrowed("ستمبر"),
+                alloc::borrow::Cow::Borrowed("اکتوبر"),
+                alloc::borrow::Cow::Borrowed("نومبر"),
+                alloc::borrow::Cow::Borrowed("دسمبر"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("J"),
+                alloc::borrow::Cow::Borrowed("F"),
+                alloc::borrow::Cow::Borrowed("M"),
+                alloc::borrow::Cow::Borrowed("A"),
+                alloc::borrow::Cow::Borrowed("M"),
+                alloc::borrow::Cow::Borrowed("J"),
+                alloc::borrow::Cow::Borrowed("J"),
+                alloc::borrow::Cow::Borrowed("A"),
+                alloc::borrow::Cow::Borrowed("S"),
+                alloc::borrow::Cow::Borrowed("O"),
+                alloc::borrow::Cow::Borrowed("N"),
+                alloc::borrow::Cow::Borrowed("D"),
+            ]),
+            short: None,
+            wide: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("جنوری"),
+                alloc::borrow::Cow::Borrowed("فروری"),
+                alloc::borrow::Cow::Borrowed("مارچ"),
+                alloc::borrow::Cow::Borrowed("اپریل"),
+                alloc::borrow::Cow::Borrowed("مئی"),
+                alloc::borrow::Cow::Borrowed("جون"),
+                alloc::borrow::Cow::Borrowed("جولائی"),
+                alloc::borrow::Cow::Borrowed("اگست"),
+                alloc::borrow::Cow::Borrowed("ستمبر"),
+                alloc::borrow::Cow::Borrowed("اکتوبر"),
+                alloc::borrow::Cow::Borrowed("نومبر"),
+                alloc::borrow::Cow::Borrowed("دسمبر"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    weekdays: ::icu_datetime::provider::calendar::weekdays::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::weekdays::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("اتوار"),
+                alloc::borrow::Cow::Borrowed("پیر"),
+                alloc::borrow::Cow::Borrowed("منگل"),
+                alloc::borrow::Cow::Borrowed("بدھ"),
+                alloc::borrow::Cow::Borrowed("جمعرات"),
+                alloc::borrow::Cow::Borrowed("جمعہ"),
+                alloc::borrow::Cow::Borrowed("ہفتہ"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("S"),
+                alloc::borrow::Cow::Borrowed("M"),
+                alloc::borrow::Cow::Borrowed("T"),
+                alloc::borrow::Cow::Borrowed("W"),
+                alloc::borrow::Cow::Borrowed("T"),
+                alloc::borrow::Cow::Borrowed("F"),
+                alloc::borrow::Cow::Borrowed("S"),
+            ]),
+            short: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("اتوار"),
+                alloc::borrow::Cow::Borrowed("پیر"),
+                alloc::borrow::Cow::Borrowed("منگل"),
+                alloc::borrow::Cow::Borrowed("بدھ"),
+                alloc::borrow::Cow::Borrowed("جمعرات"),
+                alloc::borrow::Cow::Borrowed("جمعہ"),
+                alloc::borrow::Cow::Borrowed("ہفتہ"),
+            ])),
+            wide: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("اتوار"),
+                alloc::borrow::Cow::Borrowed("پیر"),
+                alloc::borrow::Cow::Borrowed("منگل"),
+                alloc::borrow::Cow::Borrowed("بدھ"),
+                alloc::borrow::Cow::Borrowed("جمعرات"),
+                alloc::borrow::Cow::Borrowed("جمعہ"),
+                alloc::borrow::Cow::Borrowed("ہفتہ"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    eras: ::icu_datetime::provider::calendar::Eras {
+        names: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 15u8, 0u8, 217u8, 130u8, 216u8, 168u8,
+                        217u8, 132u8, 32u8, 217u8, 133u8, 216u8, 179u8, 219u8, 140u8, 216u8,
+                        173u8, 216u8, 185u8, 219u8, 140u8, 216u8, 179u8, 217u8, 136u8, 219u8,
+                        140u8,
+                    ])
+                },
+            )
+        },
+        abbr: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 15u8, 0u8, 217u8, 130u8, 216u8, 168u8,
+                        217u8, 132u8, 32u8, 217u8, 133u8, 216u8, 179u8, 219u8, 140u8, 216u8,
+                        173u8, 216u8, 185u8, 219u8, 140u8, 216u8, 179u8, 217u8, 136u8, 219u8,
+                        140u8,
+                    ])
+                },
+            )
+        },
+        narrow: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 15u8, 0u8, 217u8, 130u8, 216u8, 168u8,
+                        217u8, 132u8, 32u8, 217u8, 133u8, 216u8, 179u8, 219u8, 140u8, 216u8,
+                        173u8, 216u8, 185u8, 219u8, 140u8, 216u8, 179u8, 217u8, 136u8, 219u8,
+                        140u8,
+                    ])
+                },
+            )
+        },
+    },
+}

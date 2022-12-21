@@ -1,0 +1,48 @@
+::icu_datetime::provider::calendar::TimeSymbolsV1 {
+    day_periods: ::icu_datetime::provider::calendar::day_periods::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::day_periods::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("AM"),
+                pm: alloc::borrow::Cow::Borrowed("PM"),
+                noon: Some(alloc::borrow::Cow::Borrowed("keskpäeval")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("keskööl")),
+            },
+            narrow: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("AM"),
+                pm: alloc::borrow::Cow::Borrowed("PM"),
+                noon: Some(alloc::borrow::Cow::Borrowed("keskpäeval")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("keskööl")),
+            },
+            short: None,
+            wide: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("AM"),
+                pm: alloc::borrow::Cow::Borrowed("PM"),
+                noon: Some(alloc::borrow::Cow::Borrowed("keskpäeval")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("keskööl")),
+            },
+        },
+        stand_alone: Some(
+            ::icu_datetime::provider::calendar::day_periods::StandAloneWidthsV1 {
+                abbreviated: Some(::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                    am: alloc::borrow::Cow::Borrowed("AM"),
+                    pm: alloc::borrow::Cow::Borrowed("PM"),
+                    noon: Some(alloc::borrow::Cow::Borrowed("keskpäev")),
+                    midnight: Some(alloc::borrow::Cow::Borrowed("kesköö")),
+                }),
+                narrow: Some(::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                    am: alloc::borrow::Cow::Borrowed("AM"),
+                    pm: alloc::borrow::Cow::Borrowed("PM"),
+                    noon: Some(alloc::borrow::Cow::Borrowed("keskpäev")),
+                    midnight: Some(alloc::borrow::Cow::Borrowed("kesköö")),
+                }),
+                short: None,
+                wide: Some(::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                    am: alloc::borrow::Cow::Borrowed("AM"),
+                    pm: alloc::borrow::Cow::Borrowed("PM"),
+                    noon: Some(alloc::borrow::Cow::Borrowed("keskpäev")),
+                    midnight: Some(alloc::borrow::Cow::Borrowed("kesköö")),
+                }),
+            },
+        ),
+    },
+}

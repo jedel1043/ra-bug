@@ -1,0 +1,252 @@
+::icu_datetime::provider::calendar::DateSymbolsV1 {
+    months: ::icu_datetime::provider::calendar::months::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::months::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::months::SymbolsV1::Other(unsafe {
+                #[allow(unused_unsafe)]
+                ::zerovec::ZeroMap::from_parts_unchecked(
+                    unsafe {
+                        ::zerovec::ZeroVec::from_bytes_unchecked(&[
+                            77u8, 48u8, 49u8, 0u8, 77u8, 48u8, 50u8, 0u8, 77u8, 48u8, 51u8,
+                            0u8, 77u8, 48u8, 52u8, 0u8, 77u8, 48u8, 53u8, 0u8, 77u8, 48u8,
+                            54u8, 0u8, 77u8, 48u8, 55u8, 0u8, 77u8, 48u8, 56u8, 0u8, 77u8,
+                            48u8, 57u8, 0u8, 77u8, 49u8, 48u8, 0u8, 77u8, 49u8, 49u8, 0u8,
+                            77u8, 49u8, 50u8, 0u8, 77u8, 49u8, 51u8, 0u8,
+                        ])
+                    },
+                    unsafe {
+                        ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                            13u8, 0u8, 0u8, 0u8, 0u8, 0u8, 18u8, 0u8, 27u8, 0u8, 45u8, 0u8,
+                            69u8, 0u8, 78u8, 0u8, 93u8, 0u8, 123u8, 0u8, 141u8, 0u8, 159u8,
+                            0u8, 171u8, 0u8, 186u8, 0u8, 201u8, 0u8, 224u8, 180u8, 159u8,
+                            224u8, 181u8, 151u8, 224u8, 180u8, 159u8, 224u8, 181u8, 141u8,
+                            224u8, 180u8, 159u8, 224u8, 181u8, 141u8, 224u8, 180u8, 172u8,
+                            224u8, 180u8, 190u8, 224u8, 180u8, 172u8, 224u8, 180u8, 185u8,
+                            224u8, 180u8, 190u8, 224u8, 180u8, 177u8, 224u8, 181u8, 141u8,
+                            224u8, 180u8, 177u8, 224u8, 181u8, 188u8, 224u8, 180u8, 149u8,
+                            224u8, 180u8, 191u8, 224u8, 180u8, 175u8, 224u8, 180u8, 190u8,
+                            224u8, 180u8, 149u8, 224u8, 181u8, 141u8, 224u8, 180u8, 149u8,
+                            224u8, 181u8, 141u8, 224u8, 180u8, 159u8, 224u8, 181u8, 139u8,
+                            224u8, 180u8, 172u8, 224u8, 180u8, 134u8, 224u8, 180u8, 130u8,
+                            224u8, 180u8, 183u8, 224u8, 180u8, 191u8, 224u8, 181u8, 188u8,
+                            224u8, 180u8, 172u8, 224u8, 180u8, 190u8, 224u8, 180u8, 176u8,
+                            224u8, 180u8, 130u8, 224u8, 180u8, 185u8, 224u8, 180u8, 190u8,
+                            224u8, 180u8, 164u8, 224u8, 181u8, 141u8, 224u8, 180u8, 164u8,
+                            224u8, 181u8, 141u8, 224u8, 180u8, 172u8, 224u8, 180u8, 190u8,
+                            224u8, 180u8, 176u8, 224u8, 180u8, 174u8, 224u8, 181u8, 151u8,
+                            224u8, 180u8, 161u8, 224u8, 180u8, 172u8, 224u8, 180u8, 190u8,
+                            224u8, 180u8, 183u8, 224u8, 181u8, 187u8, 224u8, 180u8, 184u8,
+                            224u8, 181u8, 141u8, 224u8, 180u8, 170u8, 224u8, 180u8, 181u8,
+                            224u8, 181u8, 139u8, 224u8, 180u8, 163u8, 224u8, 180u8, 136u8,
+                            224u8, 180u8, 170u8, 224u8, 181u8, 134u8, 224u8, 180u8, 170u8,
+                            224u8, 181u8, 141u8, 224u8, 180u8, 174u8, 224u8, 181u8, 134u8,
+                            224u8, 180u8, 184u8, 224u8, 181u8, 141u8, 224u8, 180u8, 176u8,
+                            224u8, 180u8, 168u8, 224u8, 180u8, 184u8, 224u8, 181u8, 128u8,
+                        ])
+                    },
+                )
+            }),
+            narrow: ::icu_datetime::provider::calendar::months::SymbolsV1::Other(unsafe {
+                #[allow(unused_unsafe)]
+                ::zerovec::ZeroMap::from_parts_unchecked(
+                    unsafe {
+                        ::zerovec::ZeroVec::from_bytes_unchecked(&[
+                            77u8, 48u8, 49u8, 0u8, 77u8, 48u8, 50u8, 0u8, 77u8, 48u8, 51u8,
+                            0u8, 77u8, 48u8, 52u8, 0u8, 77u8, 48u8, 53u8, 0u8, 77u8, 48u8,
+                            54u8, 0u8, 77u8, 48u8, 55u8, 0u8, 77u8, 48u8, 56u8, 0u8, 77u8,
+                            48u8, 57u8, 0u8, 77u8, 49u8, 48u8, 0u8, 77u8, 49u8, 49u8, 0u8,
+                            77u8, 49u8, 50u8, 0u8, 77u8, 49u8, 51u8, 0u8,
+                        ])
+                    },
+                    unsafe {
+                        ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                            13u8, 0u8, 0u8, 0u8, 0u8, 0u8, 7u8, 0u8, 14u8, 0u8, 21u8, 0u8,
+                            28u8, 0u8, 35u8, 0u8, 42u8, 0u8, 49u8, 0u8, 56u8, 0u8, 63u8, 0u8,
+                            67u8, 0u8, 71u8, 0u8, 78u8, 0u8, 224u8, 180u8, 159u8, 224u8, 181u8,
+                            151u8, 46u8, 224u8, 180u8, 172u8, 224u8, 180u8, 190u8, 46u8, 224u8,
+                            180u8, 185u8, 224u8, 180u8, 190u8, 46u8, 224u8, 180u8, 149u8,
+                            224u8, 180u8, 191u8, 46u8, 224u8, 180u8, 159u8, 224u8, 181u8,
+                            139u8, 46u8, 224u8, 180u8, 134u8, 224u8, 180u8, 130u8, 46u8, 224u8,
+                            180u8, 172u8, 224u8, 180u8, 190u8, 46u8, 224u8, 180u8, 172u8,
+                            224u8, 180u8, 190u8, 46u8, 224u8, 180u8, 172u8, 224u8, 180u8,
+                            190u8, 46u8, 224u8, 180u8, 170u8, 46u8, 224u8, 180u8, 136u8, 46u8,
+                            224u8, 180u8, 174u8, 224u8, 181u8, 134u8, 46u8, 224u8, 180u8,
+                            168u8, 46u8,
+                        ])
+                    },
+                )
+            }),
+            short: None,
+            wide: ::icu_datetime::provider::calendar::months::SymbolsV1::Other(unsafe {
+                #[allow(unused_unsafe)]
+                ::zerovec::ZeroMap::from_parts_unchecked(
+                    unsafe {
+                        ::zerovec::ZeroVec::from_bytes_unchecked(&[
+                            77u8, 48u8, 49u8, 0u8, 77u8, 48u8, 50u8, 0u8, 77u8, 48u8, 51u8,
+                            0u8, 77u8, 48u8, 52u8, 0u8, 77u8, 48u8, 53u8, 0u8, 77u8, 48u8,
+                            54u8, 0u8, 77u8, 48u8, 55u8, 0u8, 77u8, 48u8, 56u8, 0u8, 77u8,
+                            48u8, 57u8, 0u8, 77u8, 49u8, 48u8, 0u8, 77u8, 49u8, 49u8, 0u8,
+                            77u8, 49u8, 50u8, 0u8, 77u8, 49u8, 51u8, 0u8,
+                        ])
+                    },
+                    unsafe {
+                        ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                            13u8, 0u8, 0u8, 0u8, 0u8, 0u8, 18u8, 0u8, 27u8, 0u8, 45u8, 0u8,
+                            69u8, 0u8, 78u8, 0u8, 93u8, 0u8, 123u8, 0u8, 141u8, 0u8, 159u8,
+                            0u8, 171u8, 0u8, 186u8, 0u8, 201u8, 0u8, 224u8, 180u8, 159u8,
+                            224u8, 181u8, 151u8, 224u8, 180u8, 159u8, 224u8, 181u8, 141u8,
+                            224u8, 180u8, 159u8, 224u8, 181u8, 141u8, 224u8, 180u8, 172u8,
+                            224u8, 180u8, 190u8, 224u8, 180u8, 172u8, 224u8, 180u8, 185u8,
+                            224u8, 180u8, 190u8, 224u8, 180u8, 177u8, 224u8, 181u8, 141u8,
+                            224u8, 180u8, 177u8, 224u8, 181u8, 188u8, 224u8, 180u8, 149u8,
+                            224u8, 180u8, 191u8, 224u8, 180u8, 175u8, 224u8, 180u8, 190u8,
+                            224u8, 180u8, 149u8, 224u8, 181u8, 141u8, 224u8, 180u8, 149u8,
+                            224u8, 181u8, 141u8, 224u8, 180u8, 159u8, 224u8, 181u8, 139u8,
+                            224u8, 180u8, 172u8, 224u8, 180u8, 134u8, 224u8, 180u8, 130u8,
+                            224u8, 180u8, 183u8, 224u8, 180u8, 191u8, 224u8, 181u8, 188u8,
+                            224u8, 180u8, 172u8, 224u8, 180u8, 190u8, 224u8, 180u8, 176u8,
+                            224u8, 180u8, 130u8, 224u8, 180u8, 185u8, 224u8, 180u8, 190u8,
+                            224u8, 180u8, 164u8, 224u8, 181u8, 141u8, 224u8, 180u8, 164u8,
+                            224u8, 181u8, 141u8, 224u8, 180u8, 172u8, 224u8, 180u8, 190u8,
+                            224u8, 180u8, 176u8, 224u8, 180u8, 174u8, 224u8, 181u8, 151u8,
+                            224u8, 180u8, 161u8, 224u8, 180u8, 172u8, 224u8, 180u8, 190u8,
+                            224u8, 180u8, 183u8, 224u8, 181u8, 187u8, 224u8, 180u8, 184u8,
+                            224u8, 181u8, 141u8, 224u8, 180u8, 170u8, 224u8, 180u8, 181u8,
+                            224u8, 181u8, 139u8, 224u8, 180u8, 163u8, 224u8, 180u8, 136u8,
+                            224u8, 180u8, 170u8, 224u8, 181u8, 134u8, 224u8, 180u8, 170u8,
+                            224u8, 181u8, 141u8, 224u8, 180u8, 174u8, 224u8, 181u8, 134u8,
+                            224u8, 180u8, 184u8, 224u8, 181u8, 141u8, 224u8, 180u8, 176u8,
+                            224u8, 180u8, 168u8, 224u8, 180u8, 184u8, 224u8, 181u8, 128u8,
+                        ])
+                    },
+                )
+            }),
+        },
+        stand_alone: None,
+    },
+    weekdays: ::icu_datetime::provider::calendar::weekdays::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::weekdays::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("ഞ\u{d3e}യർ"),
+                alloc::borrow::Cow::Borrowed("തിങ\u{d4d}കൾ"),
+                alloc::borrow::Cow::Borrowed("ചൊവ\u{d4d}വ"),
+                alloc::borrow::Cow::Borrowed("ബ\u{d41}ധൻ"),
+                alloc::borrow::Cow::Borrowed("വ\u{d4d}യ\u{d3e}ഴം"),
+                alloc::borrow::Cow::Borrowed("വെള\u{d4d}ളി"),
+                alloc::borrow::Cow::Borrowed("ശനി"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("ഞ"),
+                alloc::borrow::Cow::Borrowed("തി"),
+                alloc::borrow::Cow::Borrowed("ചൊ"),
+                alloc::borrow::Cow::Borrowed("ബ\u{d41}"),
+                alloc::borrow::Cow::Borrowed("വ\u{d4d}യ\u{d3e}"),
+                alloc::borrow::Cow::Borrowed("വെ"),
+                alloc::borrow::Cow::Borrowed("ശ"),
+            ]),
+            short: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("ഞ\u{d3e}"),
+                alloc::borrow::Cow::Borrowed("തി"),
+                alloc::borrow::Cow::Borrowed("ചൊ"),
+                alloc::borrow::Cow::Borrowed("ബ\u{d41}"),
+                alloc::borrow::Cow::Borrowed("വ\u{d4d}യ\u{d3e}"),
+                alloc::borrow::Cow::Borrowed("വെ"),
+                alloc::borrow::Cow::Borrowed("ശ"),
+            ])),
+            wide: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("ഞ\u{d3e}യറ\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                alloc::borrow::Cow::Borrowed("തിങ\u{d4d}കള\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                alloc::borrow::Cow::Borrowed("ചൊവ\u{d4d}വ\u{d3e}ഴ\u{d4d}ച"),
+                alloc::borrow::Cow::Borrowed("ബ\u{d41}ധന\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                alloc::borrow::Cow::Borrowed("വ\u{d4d}യ\u{d3e}ഴ\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                alloc::borrow::Cow::Borrowed("വെള\u{d4d}ളിയ\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                alloc::borrow::Cow::Borrowed("ശനിയ\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+            ]),
+        },
+        stand_alone: Some(
+            ::icu_datetime::provider::calendar::weekdays::StandAloneWidthsV1 {
+                abbreviated: None,
+                narrow: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                    alloc::borrow::Cow::Borrowed("ഞ\u{d3e}"),
+                    alloc::borrow::Cow::Borrowed("തി"),
+                    alloc::borrow::Cow::Borrowed("ചൊ"),
+                    alloc::borrow::Cow::Borrowed("ബ\u{d41}"),
+                    alloc::borrow::Cow::Borrowed("വ\u{d4d}യ\u{d3e}"),
+                    alloc::borrow::Cow::Borrowed("വെ"),
+                    alloc::borrow::Cow::Borrowed("ശ"),
+                ])),
+                short: None,
+                wide: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                    alloc::borrow::Cow::Borrowed("ഞ\u{d3e}യറ\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                    alloc::borrow::Cow::Borrowed("തിങ\u{d4d}കള\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                    alloc::borrow::Cow::Borrowed("ചൊവ\u{d4d}വ\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                    alloc::borrow::Cow::Borrowed("ബ\u{d41}ധന\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                    alloc::borrow::Cow::Borrowed("വ\u{d4d}യ\u{d3e}ഴ\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                    alloc::borrow::Cow::Borrowed("വെള\u{d4d}ളിയ\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                    alloc::borrow::Cow::Borrowed("ശനിയ\u{d3e}ഴ\u{d4d}\u{200c}ച"),
+                ])),
+            },
+        ),
+    },
+    eras: ::icu_datetime::provider::calendar::Eras {
+        names: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 2u8, 0u8, 97u8, 100u8, 98u8, 100u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 25u8, 0u8, 224u8, 180u8, 149u8, 224u8,
+                        180u8, 190u8, 224u8, 180u8, 178u8, 224u8, 180u8, 152u8, 224u8, 180u8,
+                        159u8, 224u8, 181u8, 141u8, 224u8, 180u8, 159u8, 224u8, 180u8, 130u8,
+                        49u8, 224u8, 180u8, 149u8, 224u8, 180u8, 190u8, 224u8, 180u8, 178u8,
+                        224u8, 180u8, 152u8, 224u8, 180u8, 159u8, 224u8, 181u8, 141u8, 224u8,
+                        180u8, 159u8, 224u8, 180u8, 130u8, 48u8,
+                    ])
+                },
+            )
+        },
+        abbr: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 2u8, 0u8, 97u8, 100u8, 98u8, 100u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 25u8, 0u8, 224u8, 180u8, 149u8, 224u8,
+                        180u8, 190u8, 224u8, 180u8, 178u8, 224u8, 180u8, 152u8, 224u8, 180u8,
+                        159u8, 224u8, 181u8, 141u8, 224u8, 180u8, 159u8, 224u8, 180u8, 130u8,
+                        49u8, 224u8, 180u8, 149u8, 224u8, 180u8, 190u8, 224u8, 180u8, 178u8,
+                        224u8, 180u8, 152u8, 224u8, 180u8, 159u8, 224u8, 181u8, 141u8, 224u8,
+                        180u8, 159u8, 224u8, 180u8, 130u8, 48u8,
+                    ])
+                },
+            )
+        },
+        narrow: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 2u8, 0u8, 97u8, 100u8, 98u8, 100u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 25u8, 0u8, 224u8, 180u8, 149u8, 224u8,
+                        180u8, 190u8, 224u8, 180u8, 178u8, 224u8, 180u8, 152u8, 224u8, 180u8,
+                        159u8, 224u8, 181u8, 141u8, 224u8, 180u8, 159u8, 224u8, 180u8, 130u8,
+                        49u8, 224u8, 180u8, 149u8, 224u8, 180u8, 190u8, 224u8, 180u8, 178u8,
+                        224u8, 180u8, 152u8, 224u8, 180u8, 159u8, 224u8, 181u8, 141u8, 224u8,
+                        180u8, 159u8, 224u8, 180u8, 130u8, 48u8,
+                    ])
+                },
+            )
+        },
+    },
+}

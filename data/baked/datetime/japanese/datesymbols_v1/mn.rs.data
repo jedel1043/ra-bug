@@ -1,0 +1,203 @@
+::icu_datetime::provider::calendar::DateSymbolsV1 {
+    months: ::icu_datetime::provider::calendar::months::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::months::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("1-р сар"),
+                alloc::borrow::Cow::Borrowed("2-р сар"),
+                alloc::borrow::Cow::Borrowed("3-р сар"),
+                alloc::borrow::Cow::Borrowed("4-р сар"),
+                alloc::borrow::Cow::Borrowed("5-р сар"),
+                alloc::borrow::Cow::Borrowed("6-р сар"),
+                alloc::borrow::Cow::Borrowed("7-р сар"),
+                alloc::borrow::Cow::Borrowed("8-р сар"),
+                alloc::borrow::Cow::Borrowed("9-р сар"),
+                alloc::borrow::Cow::Borrowed("10-р сар"),
+                alloc::borrow::Cow::Borrowed("11-р сар"),
+                alloc::borrow::Cow::Borrowed("12-р сар"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("I"),
+                alloc::borrow::Cow::Borrowed("II"),
+                alloc::borrow::Cow::Borrowed("III"),
+                alloc::borrow::Cow::Borrowed("IV"),
+                alloc::borrow::Cow::Borrowed("V"),
+                alloc::borrow::Cow::Borrowed("VI"),
+                alloc::borrow::Cow::Borrowed("VII"),
+                alloc::borrow::Cow::Borrowed("VIII"),
+                alloc::borrow::Cow::Borrowed("IX"),
+                alloc::borrow::Cow::Borrowed("X"),
+                alloc::borrow::Cow::Borrowed("XI"),
+                alloc::borrow::Cow::Borrowed("XII"),
+            ]),
+            short: None,
+            wide: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("нэгдүгээр сар"),
+                alloc::borrow::Cow::Borrowed("хоёрдугаар сар"),
+                alloc::borrow::Cow::Borrowed("гуравдугаар сар"),
+                alloc::borrow::Cow::Borrowed("дөрөвдүгээр сар"),
+                alloc::borrow::Cow::Borrowed("тавдугаар сар"),
+                alloc::borrow::Cow::Borrowed("зургаадугаар сар"),
+                alloc::borrow::Cow::Borrowed("долоодугаар сар"),
+                alloc::borrow::Cow::Borrowed("наймдугаар сар"),
+                alloc::borrow::Cow::Borrowed("есдүгээр сар"),
+                alloc::borrow::Cow::Borrowed("аравдугаар сар"),
+                alloc::borrow::Cow::Borrowed("арван нэгдүгээр сар"),
+                alloc::borrow::Cow::Borrowed("арван хоёрдугаар сар"),
+            ]),
+        },
+        stand_alone: Some(
+            ::icu_datetime::provider::calendar::months::StandAloneWidthsV1 {
+                abbreviated: None,
+                narrow: None,
+                short: None,
+                wide: Some(
+                    ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                        alloc::borrow::Cow::Borrowed("Нэгдүгээр сар"),
+                        alloc::borrow::Cow::Borrowed("Хоёрдугаар сар"),
+                        alloc::borrow::Cow::Borrowed("Гуравдугаар сар"),
+                        alloc::borrow::Cow::Borrowed("Дөрөвдүгээр сар"),
+                        alloc::borrow::Cow::Borrowed("Тавдугаар сар"),
+                        alloc::borrow::Cow::Borrowed("Зургаадугаар сар"),
+                        alloc::borrow::Cow::Borrowed("Долоодугаар сар"),
+                        alloc::borrow::Cow::Borrowed("Наймдугаар сар"),
+                        alloc::borrow::Cow::Borrowed("Есдүгээр сар"),
+                        alloc::borrow::Cow::Borrowed("Аравдугаар сар"),
+                        alloc::borrow::Cow::Borrowed("Арван нэгдүгээр сар"),
+                        alloc::borrow::Cow::Borrowed("Арван хоёрдугаар сар"),
+                    ]),
+                ),
+            },
+        ),
+    },
+    weekdays: ::icu_datetime::provider::calendar::weekdays::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::weekdays::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("Ня"),
+                alloc::borrow::Cow::Borrowed("Да"),
+                alloc::borrow::Cow::Borrowed("Мя"),
+                alloc::borrow::Cow::Borrowed("Лх"),
+                alloc::borrow::Cow::Borrowed("Пү"),
+                alloc::borrow::Cow::Borrowed("Ба"),
+                alloc::borrow::Cow::Borrowed("Бя"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("Ня"),
+                alloc::borrow::Cow::Borrowed("Да"),
+                alloc::borrow::Cow::Borrowed("Мя"),
+                alloc::borrow::Cow::Borrowed("Лх"),
+                alloc::borrow::Cow::Borrowed("Пү"),
+                alloc::borrow::Cow::Borrowed("Ба"),
+                alloc::borrow::Cow::Borrowed("Бя"),
+            ]),
+            short: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("Ня"),
+                alloc::borrow::Cow::Borrowed("Да"),
+                alloc::borrow::Cow::Borrowed("Мя"),
+                alloc::borrow::Cow::Borrowed("Лх"),
+                alloc::borrow::Cow::Borrowed("Пү"),
+                alloc::borrow::Cow::Borrowed("Ба"),
+                alloc::borrow::Cow::Borrowed("Бя"),
+            ])),
+            wide: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("ням"),
+                alloc::borrow::Cow::Borrowed("даваа"),
+                alloc::borrow::Cow::Borrowed("мягмар"),
+                alloc::borrow::Cow::Borrowed("лхагва"),
+                alloc::borrow::Cow::Borrowed("пүрэв"),
+                alloc::borrow::Cow::Borrowed("баасан"),
+                alloc::borrow::Cow::Borrowed("бямба"),
+            ]),
+        },
+        stand_alone: Some(
+            ::icu_datetime::provider::calendar::weekdays::StandAloneWidthsV1 {
+                abbreviated: None,
+                narrow: None,
+                short: None,
+                wide: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                    alloc::borrow::Cow::Borrowed("Ням"),
+                    alloc::borrow::Cow::Borrowed("Даваа"),
+                    alloc::borrow::Cow::Borrowed("Мягмар"),
+                    alloc::borrow::Cow::Borrowed("Лхагва"),
+                    alloc::borrow::Cow::Borrowed("Пүрэв"),
+                    alloc::borrow::Cow::Borrowed("Баасан"),
+                    alloc::borrow::Cow::Borrowed("Бямба"),
+                ])),
+            },
+        ),
+    },
+    eras: ::icu_datetime::provider::calendar::Eras {
+        names: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 34u8, 0u8, 57u8, 0u8, 63u8, 0u8, 68u8,
+                        0u8, 73u8, 0u8, 79u8, 0u8, 208u8, 188u8, 208u8, 176u8, 208u8, 189u8,
+                        208u8, 176u8, 208u8, 185u8, 32u8, 209u8, 141u8, 209u8, 128u8, 208u8,
+                        184u8, 208u8, 189u8, 208u8, 184u8, 208u8, 185u8, 32u8, 211u8, 169u8,
+                        208u8, 188u8, 208u8, 189u8, 211u8, 169u8, 209u8, 133u8, 208u8, 188u8,
+                        208u8, 176u8, 208u8, 189u8, 208u8, 176u8, 208u8, 185u8, 32u8, 209u8,
+                        141u8, 209u8, 128u8, 208u8, 184u8, 208u8, 189u8, 208u8, 184u8, 208u8,
+                        185u8, 72u8, 101u8, 105u8, 115u8, 101u8, 105u8, 77u8, 101u8, 105u8,
+                        106u8, 105u8, 82u8, 101u8, 105u8, 119u8, 97u8, 83u8, 104u8, 197u8,
+                        141u8, 119u8, 97u8, 84u8, 97u8, 105u8, 115u8, 104u8, 197u8, 141u8,
+                    ])
+                },
+            )
+        },
+        abbr: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 6u8, 0u8, 10u8, 0u8, 16u8, 0u8, 21u8,
+                        0u8, 26u8, 0u8, 32u8, 0u8, 208u8, 156u8, 208u8, 173u8, 211u8, 168u8,
+                        208u8, 156u8, 208u8, 173u8, 72u8, 101u8, 105u8, 115u8, 101u8, 105u8,
+                        77u8, 101u8, 105u8, 106u8, 105u8, 82u8, 101u8, 105u8, 119u8, 97u8,
+                        83u8, 104u8, 197u8, 141u8, 119u8, 97u8, 84u8, 97u8, 105u8, 115u8,
+                        104u8, 197u8, 141u8,
+                    ])
+                },
+            )
+        },
+        narrow: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 6u8, 0u8, 10u8, 0u8, 11u8, 0u8, 12u8,
+                        0u8, 13u8, 0u8, 14u8, 0u8, 208u8, 156u8, 208u8, 173u8, 211u8, 168u8,
+                        208u8, 156u8, 208u8, 173u8, 72u8, 77u8, 82u8, 83u8, 84u8,
+                    ])
+                },
+            )
+        },
+    },
+}

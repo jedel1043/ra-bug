@@ -1,0 +1,48 @@
+::icu_datetime::provider::calendar::TimeSymbolsV1 {
+    day_periods: ::icu_datetime::provider::calendar::day_periods::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::day_periods::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("AM"),
+                pm: alloc::borrow::Cow::Borrowed("PM"),
+                noon: Some(alloc::borrow::Cow::Borrowed("შუადღ.")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("შუაღამეს")),
+            },
+            narrow: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("a"),
+                pm: alloc::borrow::Cow::Borrowed("p"),
+                noon: Some(alloc::borrow::Cow::Borrowed("შუადღ.")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("შუაღამეს")),
+            },
+            short: None,
+            wide: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("AM"),
+                pm: alloc::borrow::Cow::Borrowed("PM"),
+                noon: Some(alloc::borrow::Cow::Borrowed("შუადღეს")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("შუაღამეს")),
+            },
+        },
+        stand_alone: Some(
+            ::icu_datetime::provider::calendar::day_periods::StandAloneWidthsV1 {
+                abbreviated: Some(::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                    am: alloc::borrow::Cow::Borrowed("AM"),
+                    pm: alloc::borrow::Cow::Borrowed("PM"),
+                    noon: Some(alloc::borrow::Cow::Borrowed("შუადღე")),
+                    midnight: Some(alloc::borrow::Cow::Borrowed("შუაღამე")),
+                }),
+                narrow: Some(::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                    am: alloc::borrow::Cow::Borrowed("AM"),
+                    pm: alloc::borrow::Cow::Borrowed("PM"),
+                    noon: Some(alloc::borrow::Cow::Borrowed("შუადღე")),
+                    midnight: Some(alloc::borrow::Cow::Borrowed("შუაღამე")),
+                }),
+                short: None,
+                wide: Some(::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                    am: alloc::borrow::Cow::Borrowed("AM"),
+                    pm: alloc::borrow::Cow::Borrowed("PM"),
+                    noon: Some(alloc::borrow::Cow::Borrowed("შუადღე")),
+                    midnight: Some(alloc::borrow::Cow::Borrowed("შუაღამე")),
+                }),
+            },
+        ),
+    },
+}

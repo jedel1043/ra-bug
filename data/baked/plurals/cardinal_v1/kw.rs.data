@@ -1,0 +1,44 @@
+::icu_plurals::provider::PluralRulesV1 {
+    zero: Some(::icu_plurals::rules::runtime::ast::Rule(unsafe {
+        ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+            1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 192u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8,
+            0u8, 0u8, 0u8,
+        ])
+    })),
+    one: Some(::icu_plurals::rules::runtime::ast::Rule(unsafe {
+        ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+            1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 192u8, 0u8, 0u8, 0u8, 0u8, 1u8, 0u8, 0u8, 0u8, 1u8,
+            0u8, 0u8, 0u8,
+        ])
+    })),
+    two: Some(::icu_plurals::rules::runtime::ast::Rule(unsafe {
+        ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+            5u8, 0u8, 0u8, 0u8, 0u8, 0u8, 45u8, 0u8, 58u8, 0u8, 95u8, 0u8, 108u8, 0u8, 192u8,
+            100u8, 0u8, 0u8, 0u8, 2u8, 0u8, 0u8, 0u8, 2u8, 0u8, 0u8, 0u8, 22u8, 0u8, 0u8, 0u8,
+            22u8, 0u8, 0u8, 0u8, 42u8, 0u8, 0u8, 0u8, 42u8, 0u8, 0u8, 0u8, 62u8, 0u8, 0u8, 0u8,
+            62u8, 0u8, 0u8, 0u8, 82u8, 0u8, 0u8, 0u8, 82u8, 0u8, 0u8, 0u8, 64u8, 232u8, 3u8,
+            0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 192u8, 160u8, 134u8, 1u8, 0u8,
+            232u8, 3u8, 0u8, 0u8, 32u8, 78u8, 0u8, 0u8, 64u8, 156u8, 0u8, 0u8, 64u8, 156u8,
+            0u8, 0u8, 96u8, 234u8, 0u8, 0u8, 96u8, 234u8, 0u8, 0u8, 128u8, 56u8, 1u8, 0u8,
+            128u8, 56u8, 1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8, 0u8,
+            0u8, 192u8, 64u8, 66u8, 15u8, 0u8, 160u8, 134u8, 1u8, 0u8, 160u8, 134u8, 1u8, 0u8,
+        ])
+    })),
+    few: Some(::icu_plurals::rules::runtime::ast::Rule(unsafe {
+        ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+            1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 192u8, 100u8, 0u8, 0u8, 0u8, 3u8, 0u8, 0u8, 0u8, 3u8,
+            0u8, 0u8, 0u8, 23u8, 0u8, 0u8, 0u8, 23u8, 0u8, 0u8, 0u8, 43u8, 0u8, 0u8, 0u8, 43u8,
+            0u8, 0u8, 0u8, 63u8, 0u8, 0u8, 0u8, 63u8, 0u8, 0u8, 0u8, 83u8, 0u8, 0u8, 0u8, 83u8,
+            0u8, 0u8, 0u8,
+        ])
+    })),
+    many: Some(::icu_plurals::rules::runtime::ast::Rule(unsafe {
+        ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+            2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 13u8, 0u8, 128u8, 0u8, 0u8, 0u8, 0u8, 1u8, 0u8, 0u8,
+            0u8, 1u8, 0u8, 0u8, 0u8, 192u8, 100u8, 0u8, 0u8, 0u8, 1u8, 0u8, 0u8, 0u8, 1u8, 0u8,
+            0u8, 0u8, 21u8, 0u8, 0u8, 0u8, 21u8, 0u8, 0u8, 0u8, 41u8, 0u8, 0u8, 0u8, 41u8, 0u8,
+            0u8, 0u8, 61u8, 0u8, 0u8, 0u8, 61u8, 0u8, 0u8, 0u8, 81u8, 0u8, 0u8, 0u8, 81u8, 0u8,
+            0u8, 0u8,
+        ])
+    })),
+}

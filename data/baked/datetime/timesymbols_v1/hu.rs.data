@@ -1,0 +1,26 @@
+::icu_datetime::provider::calendar::TimeSymbolsV1 {
+    day_periods: ::icu_datetime::provider::calendar::day_periods::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::day_periods::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("de."),
+                pm: alloc::borrow::Cow::Borrowed("du."),
+                noon: Some(alloc::borrow::Cow::Borrowed("dél")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("éjfél")),
+            },
+            narrow: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("de."),
+                pm: alloc::borrow::Cow::Borrowed("du."),
+                noon: Some(alloc::borrow::Cow::Borrowed("dél")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("éjfél")),
+            },
+            short: None,
+            wide: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("de."),
+                pm: alloc::borrow::Cow::Borrowed("du."),
+                noon: Some(alloc::borrow::Cow::Borrowed("dél")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("éjfél")),
+            },
+        },
+        stand_alone: None,
+    },
+}

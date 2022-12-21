@@ -1,0 +1,144 @@
+::icu_datetime::provider::calendar::DateSymbolsV1 {
+    months: ::icu_datetime::provider::calendar::months::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::months::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("ጃንዩ"),
+                alloc::borrow::Cow::Borrowed("ፌብሩ"),
+                alloc::borrow::Cow::Borrowed("ማርች"),
+                alloc::borrow::Cow::Borrowed("ኤፕሪ"),
+                alloc::borrow::Cow::Borrowed("ሜይ"),
+                alloc::borrow::Cow::Borrowed("ጁን"),
+                alloc::borrow::Cow::Borrowed("ጁላይ"),
+                alloc::borrow::Cow::Borrowed("ኦገስ"),
+                alloc::borrow::Cow::Borrowed("ሴፕቴ"),
+                alloc::borrow::Cow::Borrowed("ኦክቶ"),
+                alloc::borrow::Cow::Borrowed("ኖቬም"),
+                alloc::borrow::Cow::Borrowed("ዲሴም"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("ጃ"),
+                alloc::borrow::Cow::Borrowed("ፌ"),
+                alloc::borrow::Cow::Borrowed("ማ"),
+                alloc::borrow::Cow::Borrowed("ኤ"),
+                alloc::borrow::Cow::Borrowed("ሜ"),
+                alloc::borrow::Cow::Borrowed("ጁ"),
+                alloc::borrow::Cow::Borrowed("ጁ"),
+                alloc::borrow::Cow::Borrowed("ኦ"),
+                alloc::borrow::Cow::Borrowed("ሴ"),
+                alloc::borrow::Cow::Borrowed("ኦ"),
+                alloc::borrow::Cow::Borrowed("ኖ"),
+                alloc::borrow::Cow::Borrowed("ዲ"),
+            ]),
+            short: None,
+            wide: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("ጃንዩወሪ"),
+                alloc::borrow::Cow::Borrowed("ፌብሩወሪ"),
+                alloc::borrow::Cow::Borrowed("ማርች"),
+                alloc::borrow::Cow::Borrowed("ኤፕሪል"),
+                alloc::borrow::Cow::Borrowed("ሜይ"),
+                alloc::borrow::Cow::Borrowed("ጁን"),
+                alloc::borrow::Cow::Borrowed("ጁላይ"),
+                alloc::borrow::Cow::Borrowed("ኦገስት"),
+                alloc::borrow::Cow::Borrowed("ሴፕቴምበር"),
+                alloc::borrow::Cow::Borrowed("ኦክቶበር"),
+                alloc::borrow::Cow::Borrowed("ኖቬምበር"),
+                alloc::borrow::Cow::Borrowed("ዲሴምበር"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    weekdays: ::icu_datetime::provider::calendar::weekdays::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::weekdays::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("እሑድ"),
+                alloc::borrow::Cow::Borrowed("ሰኞ"),
+                alloc::borrow::Cow::Borrowed("ማክሰ"),
+                alloc::borrow::Cow::Borrowed("ረቡዕ"),
+                alloc::borrow::Cow::Borrowed("ሐሙስ"),
+                alloc::borrow::Cow::Borrowed("ዓርብ"),
+                alloc::borrow::Cow::Borrowed("ቅዳሜ"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("እ"),
+                alloc::borrow::Cow::Borrowed("ሰ"),
+                alloc::borrow::Cow::Borrowed("ማ"),
+                alloc::borrow::Cow::Borrowed("ረ"),
+                alloc::borrow::Cow::Borrowed("ሐ"),
+                alloc::borrow::Cow::Borrowed("ዓ"),
+                alloc::borrow::Cow::Borrowed("ቅ"),
+            ]),
+            short: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("እ"),
+                alloc::borrow::Cow::Borrowed("ሰ"),
+                alloc::borrow::Cow::Borrowed("ማ"),
+                alloc::borrow::Cow::Borrowed("ረ"),
+                alloc::borrow::Cow::Borrowed("ሐ"),
+                alloc::borrow::Cow::Borrowed("ዓ"),
+                alloc::borrow::Cow::Borrowed("ቅ"),
+            ])),
+            wide: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("እሑድ"),
+                alloc::borrow::Cow::Borrowed("ሰኞ"),
+                alloc::borrow::Cow::Borrowed("ማክሰኞ"),
+                alloc::borrow::Cow::Borrowed("ረቡዕ"),
+                alloc::borrow::Cow::Borrowed("ሐሙስ"),
+                alloc::borrow::Cow::Borrowed("ዓርብ"),
+                alloc::borrow::Cow::Borrowed("ቅዳሜ"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    eras: ::icu_datetime::provider::calendar::Eras {
+        names: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 19u8, 0u8, 225u8, 139u8, 147u8, 225u8,
+                        136u8, 152u8, 225u8, 137u8, 176u8, 32u8, 225u8, 139u8, 147u8, 225u8,
+                        136u8, 136u8, 225u8, 136u8, 157u8, 225u8, 139u8, 147u8, 225u8, 136u8,
+                        152u8, 225u8, 137u8, 176u8, 32u8, 225u8, 136u8, 157u8, 225u8, 136u8,
+                        149u8, 225u8, 136u8, 168u8, 225u8, 137u8, 181u8,
+                    ])
+                },
+            )
+        },
+        abbr: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 7u8, 0u8, 225u8, 139u8, 147u8, 47u8,
+                        225u8, 139u8, 147u8, 225u8, 139u8, 147u8, 47u8, 225u8, 136u8, 157u8,
+                    ])
+                },
+            )
+        },
+        narrow: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 7u8, 0u8, 225u8, 139u8, 147u8, 47u8,
+                        225u8, 139u8, 147u8, 225u8, 139u8, 147u8, 47u8, 225u8, 136u8, 157u8,
+                    ])
+                },
+            )
+        },
+    },
+}

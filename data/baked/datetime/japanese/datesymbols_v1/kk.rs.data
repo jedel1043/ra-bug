@@ -1,0 +1,191 @@
+::icu_datetime::provider::calendar::DateSymbolsV1 {
+    months: ::icu_datetime::provider::calendar::months::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::months::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("қаң."),
+                alloc::borrow::Cow::Borrowed("ақп."),
+                alloc::borrow::Cow::Borrowed("нау."),
+                alloc::borrow::Cow::Borrowed("сәу."),
+                alloc::borrow::Cow::Borrowed("мам."),
+                alloc::borrow::Cow::Borrowed("мау."),
+                alloc::borrow::Cow::Borrowed("шіл."),
+                alloc::borrow::Cow::Borrowed("там."),
+                alloc::borrow::Cow::Borrowed("қыр."),
+                alloc::borrow::Cow::Borrowed("қаз."),
+                alloc::borrow::Cow::Borrowed("қар."),
+                alloc::borrow::Cow::Borrowed("жел."),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("Қ"),
+                alloc::borrow::Cow::Borrowed("А"),
+                alloc::borrow::Cow::Borrowed("Н"),
+                alloc::borrow::Cow::Borrowed("С"),
+                alloc::borrow::Cow::Borrowed("М"),
+                alloc::borrow::Cow::Borrowed("М"),
+                alloc::borrow::Cow::Borrowed("Ш"),
+                alloc::borrow::Cow::Borrowed("Т"),
+                alloc::borrow::Cow::Borrowed("Қ"),
+                alloc::borrow::Cow::Borrowed("Қ"),
+                alloc::borrow::Cow::Borrowed("Қ"),
+                alloc::borrow::Cow::Borrowed("Ж"),
+            ]),
+            short: None,
+            wide: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("қаңтар"),
+                alloc::borrow::Cow::Borrowed("ақпан"),
+                alloc::borrow::Cow::Borrowed("наурыз"),
+                alloc::borrow::Cow::Borrowed("сәуір"),
+                alloc::borrow::Cow::Borrowed("мамыр"),
+                alloc::borrow::Cow::Borrowed("маусым"),
+                alloc::borrow::Cow::Borrowed("шілде"),
+                alloc::borrow::Cow::Borrowed("тамыз"),
+                alloc::borrow::Cow::Borrowed("қыркүйек"),
+                alloc::borrow::Cow::Borrowed("қазан"),
+                alloc::borrow::Cow::Borrowed("қараша"),
+                alloc::borrow::Cow::Borrowed("желтоқсан"),
+            ]),
+        },
+        stand_alone: Some(
+            ::icu_datetime::provider::calendar::months::StandAloneWidthsV1 {
+                abbreviated: None,
+                narrow: None,
+                short: None,
+                wide: Some(
+                    ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                        alloc::borrow::Cow::Borrowed("Қаңтар"),
+                        alloc::borrow::Cow::Borrowed("Ақпан"),
+                        alloc::borrow::Cow::Borrowed("Наурыз"),
+                        alloc::borrow::Cow::Borrowed("Сәуір"),
+                        alloc::borrow::Cow::Borrowed("Мамыр"),
+                        alloc::borrow::Cow::Borrowed("Маусым"),
+                        alloc::borrow::Cow::Borrowed("Шілде"),
+                        alloc::borrow::Cow::Borrowed("Тамыз"),
+                        alloc::borrow::Cow::Borrowed("Қыркүйек"),
+                        alloc::borrow::Cow::Borrowed("Қазан"),
+                        alloc::borrow::Cow::Borrowed("Қараша"),
+                        alloc::borrow::Cow::Borrowed("Желтоқсан"),
+                    ]),
+                ),
+            },
+        ),
+    },
+    weekdays: ::icu_datetime::provider::calendar::weekdays::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::weekdays::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("жс"),
+                alloc::borrow::Cow::Borrowed("дс"),
+                alloc::borrow::Cow::Borrowed("сс"),
+                alloc::borrow::Cow::Borrowed("ср"),
+                alloc::borrow::Cow::Borrowed("бс"),
+                alloc::borrow::Cow::Borrowed("жм"),
+                alloc::borrow::Cow::Borrowed("сб"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("Ж"),
+                alloc::borrow::Cow::Borrowed("Д"),
+                alloc::borrow::Cow::Borrowed("С"),
+                alloc::borrow::Cow::Borrowed("С"),
+                alloc::borrow::Cow::Borrowed("Б"),
+                alloc::borrow::Cow::Borrowed("Ж"),
+                alloc::borrow::Cow::Borrowed("С"),
+            ]),
+            short: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("жс"),
+                alloc::borrow::Cow::Borrowed("дс"),
+                alloc::borrow::Cow::Borrowed("сс"),
+                alloc::borrow::Cow::Borrowed("ср"),
+                alloc::borrow::Cow::Borrowed("бс"),
+                alloc::borrow::Cow::Borrowed("жм"),
+                alloc::borrow::Cow::Borrowed("сб"),
+            ])),
+            wide: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("жексенбі"),
+                alloc::borrow::Cow::Borrowed("дүйсенбі"),
+                alloc::borrow::Cow::Borrowed("сейсенбі"),
+                alloc::borrow::Cow::Borrowed("сәрсенбі"),
+                alloc::borrow::Cow::Borrowed("бейсенбі"),
+                alloc::borrow::Cow::Borrowed("жұма"),
+                alloc::borrow::Cow::Borrowed("сенбі"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    eras: ::icu_datetime::provider::calendar::Eras {
+        names: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 46u8, 0u8, 77u8, 0u8, 83u8, 0u8, 88u8,
+                        0u8, 93u8, 0u8, 99u8, 0u8, 208u8, 145u8, 209u8, 150u8, 208u8, 183u8,
+                        208u8, 180u8, 209u8, 150u8, 210u8, 163u8, 32u8, 208u8, 183u8, 208u8,
+                        176u8, 208u8, 188u8, 208u8, 176u8, 208u8, 189u8, 209u8, 139u8, 208u8,
+                        188u8, 209u8, 139u8, 208u8, 183u8, 210u8, 147u8, 208u8, 176u8, 32u8,
+                        208u8, 180u8, 208u8, 181u8, 208u8, 185u8, 209u8, 150u8, 208u8, 189u8,
+                        208u8, 177u8, 209u8, 150u8, 208u8, 183u8, 208u8, 180u8, 209u8, 150u8,
+                        210u8, 163u8, 32u8, 208u8, 183u8, 208u8, 176u8, 208u8, 188u8, 208u8,
+                        176u8, 208u8, 189u8, 209u8, 139u8, 208u8, 188u8, 209u8, 139u8, 208u8,
+                        183u8, 72u8, 101u8, 105u8, 115u8, 101u8, 105u8, 77u8, 101u8, 105u8,
+                        106u8, 105u8, 82u8, 101u8, 105u8, 119u8, 97u8, 83u8, 104u8, 197u8,
+                        141u8, 119u8, 97u8, 84u8, 97u8, 105u8, 115u8, 104u8, 197u8, 141u8,
+                    ])
+                },
+            )
+        },
+        abbr: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 9u8, 0u8, 15u8, 0u8, 21u8, 0u8, 26u8,
+                        0u8, 31u8, 0u8, 37u8, 0u8, 208u8, 177u8, 46u8, 208u8, 183u8, 46u8,
+                        208u8, 180u8, 46u8, 208u8, 177u8, 46u8, 208u8, 183u8, 46u8, 72u8,
+                        101u8, 105u8, 115u8, 101u8, 105u8, 77u8, 101u8, 105u8, 106u8, 105u8,
+                        82u8, 101u8, 105u8, 119u8, 97u8, 83u8, 104u8, 197u8, 141u8, 119u8,
+                        97u8, 84u8, 97u8, 105u8, 115u8, 104u8, 197u8, 141u8,
+                    ])
+                },
+            )
+        },
+        narrow: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 9u8, 0u8, 15u8, 0u8, 16u8, 0u8, 17u8,
+                        0u8, 18u8, 0u8, 19u8, 0u8, 208u8, 177u8, 46u8, 208u8, 183u8, 46u8,
+                        208u8, 180u8, 46u8, 208u8, 177u8, 46u8, 208u8, 183u8, 46u8, 72u8, 77u8,
+                        82u8, 83u8, 84u8,
+                    ])
+                },
+            )
+        },
+    },
+}

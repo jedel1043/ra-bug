@@ -1,0 +1,33 @@
+::icu_datetime::provider::time_zones::TimeZoneFormatsV1 {
+    hour_format: (
+        alloc::borrow::Cow::Borrowed("+HH:mm"),
+        alloc::borrow::Cow::Borrowed("-HH:mm"),
+    ),
+    gmt_format: alloc::borrow::Cow::Borrowed("GMT{0}"),
+    gmt_zero_format: alloc::borrow::Cow::Borrowed("GMT"),
+    region_format: alloc::borrow::Cow::Borrowed("{0} ᎠᏟᎢᎵᏒ"),
+    region_format_variants: unsafe {
+        #[allow(unused_unsafe)]
+        ::zerovec::ZeroMap::from_parts_unchecked(
+            unsafe {
+                ::zerovec::ZeroVec::from_bytes_unchecked(&[
+                    100u8, 97u8, 121u8, 108u8, 105u8, 103u8, 104u8, 116u8, 115u8, 116u8, 97u8,
+                    110u8, 100u8, 97u8, 114u8, 100u8,
+                ])
+            },
+            unsafe {
+                ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                    2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 33u8, 0u8, 123u8, 48u8, 125u8, 32u8, 225u8,
+                    142u8, 170u8, 225u8, 142u8, 175u8, 32u8, 225u8, 142u8, 162u8, 225u8, 142u8,
+                    166u8, 32u8, 225u8, 142u8, 160u8, 225u8, 143u8, 159u8, 225u8, 142u8, 162u8,
+                    225u8, 142u8, 181u8, 225u8, 143u8, 146u8, 123u8, 48u8, 125u8, 32u8, 225u8,
+                    142u8, 160u8, 225u8, 143u8, 159u8, 225u8, 142u8, 182u8, 225u8, 143u8,
+                    141u8, 225u8, 143u8, 151u8, 32u8, 225u8, 142u8, 160u8, 225u8, 143u8, 159u8,
+                    225u8, 142u8, 162u8, 225u8, 142u8, 181u8, 225u8, 143u8, 146u8,
+                ])
+            },
+        )
+    },
+    fallback_format: alloc::borrow::Cow::Borrowed("{1} ({0})"),
+    gmt_offset_fallback: alloc::borrow::Cow::Borrowed("GMT+?"),
+}

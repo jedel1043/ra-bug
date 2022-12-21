@@ -1,0 +1,149 @@
+::icu_datetime::provider::calendar::DateSymbolsV1 {
+    months: ::icu_datetime::provider::calendar::months::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::months::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("जान\u{947}"),
+                alloc::borrow::Cow::Borrowed("फ\u{947}ब\u{94d}र\u{941}"),
+                alloc::borrow::Cow::Borrowed("मार\u{94d}च"),
+                alloc::borrow::Cow::Borrowed("एप\u{94d}रि"),
+                alloc::borrow::Cow::Borrowed("म\u{947}"),
+                alloc::borrow::Cow::Borrowed("ज\u{942}न"),
+                alloc::borrow::Cow::Borrowed("ज\u{941}ल\u{948}"),
+                alloc::borrow::Cow::Borrowed("ऑग"),
+                alloc::borrow::Cow::Borrowed("सप\u{94d}ट\u{947}\u{902}"),
+                alloc::borrow::Cow::Borrowed("ऑक\u{94d}टो"),
+                alloc::borrow::Cow::Borrowed("नोव\u{94d}ह\u{947}\u{902}"),
+                alloc::borrow::Cow::Borrowed("डिस\u{947}\u{902}"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("जा"),
+                alloc::borrow::Cow::Borrowed("फ\u{947}"),
+                alloc::borrow::Cow::Borrowed("मा"),
+                alloc::borrow::Cow::Borrowed("ए"),
+                alloc::borrow::Cow::Borrowed("म\u{947}"),
+                alloc::borrow::Cow::Borrowed("ज\u{942}"),
+                alloc::borrow::Cow::Borrowed("ज\u{941}"),
+                alloc::borrow::Cow::Borrowed("ऑ"),
+                alloc::borrow::Cow::Borrowed("स"),
+                alloc::borrow::Cow::Borrowed("ऑ"),
+                alloc::borrow::Cow::Borrowed("नो"),
+                alloc::borrow::Cow::Borrowed("डि"),
+            ]),
+            short: None,
+            wide: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("जान\u{947}वारी"),
+                alloc::borrow::Cow::Borrowed("फ\u{947}ब\u{94d}र\u{941}वारी"),
+                alloc::borrow::Cow::Borrowed("मार\u{94d}च"),
+                alloc::borrow::Cow::Borrowed("एप\u{94d}रिल"),
+                alloc::borrow::Cow::Borrowed("म\u{947}"),
+                alloc::borrow::Cow::Borrowed("ज\u{942}न"),
+                alloc::borrow::Cow::Borrowed("ज\u{941}ल\u{948}"),
+                alloc::borrow::Cow::Borrowed("ऑगस\u{94d}ट"),
+                alloc::borrow::Cow::Borrowed("सप\u{94d}ट\u{947}\u{902}बर"),
+                alloc::borrow::Cow::Borrowed("ऑक\u{94d}टोबर"),
+                alloc::borrow::Cow::Borrowed("नोव\u{94d}ह\u{947}\u{902}बर"),
+                alloc::borrow::Cow::Borrowed("डिस\u{947}\u{902}बर"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    weekdays: ::icu_datetime::provider::calendar::weekdays::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::weekdays::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("रवि"),
+                alloc::borrow::Cow::Borrowed("सोम"),
+                alloc::borrow::Cow::Borrowed("म\u{902}गळ"),
+                alloc::borrow::Cow::Borrowed("ब\u{941}ध"),
+                alloc::borrow::Cow::Borrowed("ग\u{941}र\u{941}"),
+                alloc::borrow::Cow::Borrowed("श\u{941}क\u{94d}र"),
+                alloc::borrow::Cow::Borrowed("शनि"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("र"),
+                alloc::borrow::Cow::Borrowed("सो"),
+                alloc::borrow::Cow::Borrowed("म\u{902}"),
+                alloc::borrow::Cow::Borrowed("ब\u{941}"),
+                alloc::borrow::Cow::Borrowed("ग\u{941}"),
+                alloc::borrow::Cow::Borrowed("श\u{941}"),
+                alloc::borrow::Cow::Borrowed("श"),
+            ]),
+            short: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("र"),
+                alloc::borrow::Cow::Borrowed("सो"),
+                alloc::borrow::Cow::Borrowed("म\u{902}"),
+                alloc::borrow::Cow::Borrowed("ब\u{941}"),
+                alloc::borrow::Cow::Borrowed("ग\u{941}"),
+                alloc::borrow::Cow::Borrowed("श\u{941}"),
+                alloc::borrow::Cow::Borrowed("श"),
+            ])),
+            wide: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("रविवार"),
+                alloc::borrow::Cow::Borrowed("सोमवार"),
+                alloc::borrow::Cow::Borrowed("म\u{902}गळवार"),
+                alloc::borrow::Cow::Borrowed("ब\u{941}धवार"),
+                alloc::borrow::Cow::Borrowed("ग\u{941}र\u{941}वार"),
+                alloc::borrow::Cow::Borrowed("श\u{941}क\u{94d}रवार"),
+                alloc::borrow::Cow::Borrowed("शनिवार"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    eras: ::icu_datetime::provider::calendar::Eras {
+        names: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 33u8, 0u8, 224u8, 164u8, 136u8, 224u8,
+                        164u8, 184u8, 224u8, 164u8, 181u8, 224u8, 165u8, 128u8, 224u8, 164u8,
+                        184u8, 224u8, 164u8, 168u8, 224u8, 164u8, 170u8, 224u8, 165u8, 130u8,
+                        224u8, 164u8, 176u8, 224u8, 165u8, 141u8, 224u8, 164u8, 181u8, 224u8,
+                        164u8, 136u8, 224u8, 164u8, 184u8, 224u8, 164u8, 181u8, 224u8, 165u8,
+                        128u8, 224u8, 164u8, 184u8, 224u8, 164u8, 168u8,
+                    ])
+                },
+            )
+        },
+        abbr: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 17u8, 0u8, 224u8, 164u8, 136u8, 46u8,
+                        32u8, 224u8, 164u8, 184u8, 46u8, 32u8, 224u8, 164u8, 170u8, 224u8,
+                        165u8, 130u8, 46u8, 224u8, 164u8, 135u8, 46u8, 32u8, 224u8, 164u8,
+                        184u8, 46u8,
+                    ])
+                },
+            )
+        },
+        narrow: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        2u8, 0u8, 0u8, 0u8, 0u8, 0u8, 17u8, 0u8, 224u8, 164u8, 136u8, 46u8,
+                        32u8, 224u8, 164u8, 184u8, 46u8, 32u8, 224u8, 164u8, 170u8, 224u8,
+                        165u8, 130u8, 46u8, 224u8, 164u8, 135u8, 46u8, 32u8, 224u8, 164u8,
+                        184u8, 46u8,
+                    ])
+                },
+            )
+        },
+    },
+}

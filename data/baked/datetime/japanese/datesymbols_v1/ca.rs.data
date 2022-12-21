@@ -1,0 +1,200 @@
+::icu_datetime::provider::calendar::DateSymbolsV1 {
+    months: ::icu_datetime::provider::calendar::months::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::months::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("de gen."),
+                alloc::borrow::Cow::Borrowed("de febr."),
+                alloc::borrow::Cow::Borrowed("de març"),
+                alloc::borrow::Cow::Borrowed("d’abr."),
+                alloc::borrow::Cow::Borrowed("de maig"),
+                alloc::borrow::Cow::Borrowed("de juny"),
+                alloc::borrow::Cow::Borrowed("de jul."),
+                alloc::borrow::Cow::Borrowed("d’ag."),
+                alloc::borrow::Cow::Borrowed("de set."),
+                alloc::borrow::Cow::Borrowed("d’oct."),
+                alloc::borrow::Cow::Borrowed("de nov."),
+                alloc::borrow::Cow::Borrowed("de des."),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("GN"),
+                alloc::borrow::Cow::Borrowed("FB"),
+                alloc::borrow::Cow::Borrowed("MÇ"),
+                alloc::borrow::Cow::Borrowed("AB"),
+                alloc::borrow::Cow::Borrowed("MG"),
+                alloc::borrow::Cow::Borrowed("JN"),
+                alloc::borrow::Cow::Borrowed("JL"),
+                alloc::borrow::Cow::Borrowed("AG"),
+                alloc::borrow::Cow::Borrowed("ST"),
+                alloc::borrow::Cow::Borrowed("OC"),
+                alloc::borrow::Cow::Borrowed("NV"),
+                alloc::borrow::Cow::Borrowed("DS"),
+            ]),
+            short: None,
+            wide: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("de gener"),
+                alloc::borrow::Cow::Borrowed("de febrer"),
+                alloc::borrow::Cow::Borrowed("de març"),
+                alloc::borrow::Cow::Borrowed("d’abril"),
+                alloc::borrow::Cow::Borrowed("de maig"),
+                alloc::borrow::Cow::Borrowed("de juny"),
+                alloc::borrow::Cow::Borrowed("de juliol"),
+                alloc::borrow::Cow::Borrowed("d’agost"),
+                alloc::borrow::Cow::Borrowed("de setembre"),
+                alloc::borrow::Cow::Borrowed("d’octubre"),
+                alloc::borrow::Cow::Borrowed("de novembre"),
+                alloc::borrow::Cow::Borrowed("de desembre"),
+            ]),
+        },
+        stand_alone: Some(
+            ::icu_datetime::provider::calendar::months::StandAloneWidthsV1 {
+                abbreviated: Some(
+                    ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                        alloc::borrow::Cow::Borrowed("gen."),
+                        alloc::borrow::Cow::Borrowed("febr."),
+                        alloc::borrow::Cow::Borrowed("març"),
+                        alloc::borrow::Cow::Borrowed("abr."),
+                        alloc::borrow::Cow::Borrowed("maig"),
+                        alloc::borrow::Cow::Borrowed("juny"),
+                        alloc::borrow::Cow::Borrowed("jul."),
+                        alloc::borrow::Cow::Borrowed("ag."),
+                        alloc::borrow::Cow::Borrowed("set."),
+                        alloc::borrow::Cow::Borrowed("oct."),
+                        alloc::borrow::Cow::Borrowed("nov."),
+                        alloc::borrow::Cow::Borrowed("des."),
+                    ]),
+                ),
+                narrow: None,
+                short: None,
+                wide: Some(
+                    ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                        alloc::borrow::Cow::Borrowed("gener"),
+                        alloc::borrow::Cow::Borrowed("febrer"),
+                        alloc::borrow::Cow::Borrowed("març"),
+                        alloc::borrow::Cow::Borrowed("abril"),
+                        alloc::borrow::Cow::Borrowed("maig"),
+                        alloc::borrow::Cow::Borrowed("juny"),
+                        alloc::borrow::Cow::Borrowed("juliol"),
+                        alloc::borrow::Cow::Borrowed("agost"),
+                        alloc::borrow::Cow::Borrowed("setembre"),
+                        alloc::borrow::Cow::Borrowed("octubre"),
+                        alloc::borrow::Cow::Borrowed("novembre"),
+                        alloc::borrow::Cow::Borrowed("desembre"),
+                    ]),
+                ),
+            },
+        ),
+    },
+    weekdays: ::icu_datetime::provider::calendar::weekdays::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::weekdays::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("dg."),
+                alloc::borrow::Cow::Borrowed("dl."),
+                alloc::borrow::Cow::Borrowed("dt."),
+                alloc::borrow::Cow::Borrowed("dc."),
+                alloc::borrow::Cow::Borrowed("dj."),
+                alloc::borrow::Cow::Borrowed("dv."),
+                alloc::borrow::Cow::Borrowed("ds."),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("dg"),
+                alloc::borrow::Cow::Borrowed("dl"),
+                alloc::borrow::Cow::Borrowed("dt"),
+                alloc::borrow::Cow::Borrowed("dc"),
+                alloc::borrow::Cow::Borrowed("dj"),
+                alloc::borrow::Cow::Borrowed("dv"),
+                alloc::borrow::Cow::Borrowed("ds"),
+            ]),
+            short: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("dg."),
+                alloc::borrow::Cow::Borrowed("dl."),
+                alloc::borrow::Cow::Borrowed("dt."),
+                alloc::borrow::Cow::Borrowed("dc."),
+                alloc::borrow::Cow::Borrowed("dj."),
+                alloc::borrow::Cow::Borrowed("dv."),
+                alloc::borrow::Cow::Borrowed("ds."),
+            ])),
+            wide: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("diumenge"),
+                alloc::borrow::Cow::Borrowed("dilluns"),
+                alloc::borrow::Cow::Borrowed("dimarts"),
+                alloc::borrow::Cow::Borrowed("dimecres"),
+                alloc::borrow::Cow::Borrowed("dijous"),
+                alloc::borrow::Cow::Borrowed("divendres"),
+                alloc::borrow::Cow::Borrowed("dissabte"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    eras: ::icu_datetime::provider::calendar::Eras {
+        names: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 14u8, 0u8, 31u8, 0u8, 37u8, 0u8, 42u8,
+                        0u8, 47u8, 0u8, 53u8, 0u8, 97u8, 98u8, 97u8, 110u8, 115u8, 32u8, 100u8,
+                        101u8, 32u8, 67u8, 114u8, 105u8, 115u8, 116u8, 100u8, 101u8, 115u8,
+                        112u8, 114u8, 195u8, 169u8, 115u8, 32u8, 100u8, 101u8, 32u8, 67u8,
+                        114u8, 105u8, 115u8, 116u8, 72u8, 101u8, 105u8, 115u8, 101u8, 105u8,
+                        77u8, 101u8, 105u8, 106u8, 105u8, 82u8, 101u8, 105u8, 119u8, 97u8,
+                        83u8, 104u8, 197u8, 141u8, 119u8, 97u8, 84u8, 97u8, 105u8, 115u8,
+                        104u8, 197u8, 141u8,
+                    ])
+                },
+            )
+        },
+        abbr: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 2u8, 0u8, 4u8, 0u8, 10u8, 0u8, 15u8, 0u8,
+                        20u8, 0u8, 26u8, 0u8, 97u8, 67u8, 100u8, 67u8, 72u8, 101u8, 105u8,
+                        115u8, 101u8, 105u8, 77u8, 101u8, 105u8, 106u8, 105u8, 82u8, 101u8,
+                        105u8, 119u8, 97u8, 83u8, 104u8, 197u8, 141u8, 119u8, 97u8, 84u8, 97u8,
+                        105u8, 115u8, 104u8, 197u8, 141u8,
+                    ])
+                },
+            )
+        },
+        narrow: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 2u8, 0u8, 4u8, 0u8, 5u8, 0u8, 6u8, 0u8,
+                        7u8, 0u8, 8u8, 0u8, 97u8, 67u8, 100u8, 67u8, 72u8, 77u8, 82u8, 83u8,
+                        84u8,
+                    ])
+                },
+            )
+        },
+    },
+}

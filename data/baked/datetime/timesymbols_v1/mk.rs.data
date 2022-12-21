@@ -1,0 +1,48 @@
+::icu_datetime::provider::calendar::TimeSymbolsV1 {
+    day_periods: ::icu_datetime::provider::calendar::day_periods::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::day_periods::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("претпл."),
+                pm: alloc::borrow::Cow::Borrowed("попл."),
+                noon: Some(alloc::borrow::Cow::Borrowed("напладне")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("полноќ")),
+            },
+            narrow: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("претпл."),
+                pm: alloc::borrow::Cow::Borrowed("попл."),
+                noon: Some(alloc::borrow::Cow::Borrowed("напл.")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("полн.")),
+            },
+            short: None,
+            wide: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("претпл."),
+                pm: alloc::borrow::Cow::Borrowed("попл."),
+                noon: Some(alloc::borrow::Cow::Borrowed("напладне")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("полноќ")),
+            },
+        },
+        stand_alone: Some(
+            ::icu_datetime::provider::calendar::day_periods::StandAloneWidthsV1 {
+                abbreviated: Some(::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                    am: alloc::borrow::Cow::Borrowed("претпл."),
+                    pm: alloc::borrow::Cow::Borrowed("попл."),
+                    noon: Some(alloc::borrow::Cow::Borrowed("пладне")),
+                    midnight: Some(alloc::borrow::Cow::Borrowed("полноќ")),
+                }),
+                narrow: Some(::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                    am: alloc::borrow::Cow::Borrowed("претпл."),
+                    pm: alloc::borrow::Cow::Borrowed("попл."),
+                    noon: Some(alloc::borrow::Cow::Borrowed("пладне")),
+                    midnight: Some(alloc::borrow::Cow::Borrowed("полноќ")),
+                }),
+                short: None,
+                wide: Some(::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                    am: alloc::borrow::Cow::Borrowed("претпл."),
+                    pm: alloc::borrow::Cow::Borrowed("попл."),
+                    noon: Some(alloc::borrow::Cow::Borrowed("пладне")),
+                    midnight: Some(alloc::borrow::Cow::Borrowed("полноќ")),
+                }),
+            },
+        ),
+    },
+}

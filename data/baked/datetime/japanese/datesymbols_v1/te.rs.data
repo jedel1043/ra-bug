@@ -1,0 +1,173 @@
+::icu_datetime::provider::calendar::DateSymbolsV1 {
+    months: ::icu_datetime::provider::calendar::months::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::months::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("జన"),
+                alloc::borrow::Cow::Borrowed("ఫ\u{c3f}బ\u{c4d}ర"),
+                alloc::borrow::Cow::Borrowed("మ\u{c3e}ర\u{c4d}చ\u{c3f}"),
+                alloc::borrow::Cow::Borrowed("ఏప\u{c4d}ర\u{c3f}"),
+                alloc::borrow::Cow::Borrowed("మ\u{c47}"),
+                alloc::borrow::Cow::Borrowed("జూన\u{c4d}"),
+                alloc::borrow::Cow::Borrowed("జుల\u{c48}"),
+                alloc::borrow::Cow::Borrowed("ఆగ"),
+                alloc::borrow::Cow::Borrowed("స\u{c46}ప\u{c4d}ట\u{c46}ం"),
+                alloc::borrow::Cow::Borrowed("అక\u{c4d}ట\u{c4b}"),
+                alloc::borrow::Cow::Borrowed("నవం"),
+                alloc::borrow::Cow::Borrowed("డ\u{c3f}స\u{c46}ం"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("జ"),
+                alloc::borrow::Cow::Borrowed("ఫ\u{c3f}"),
+                alloc::borrow::Cow::Borrowed("మ\u{c3e}"),
+                alloc::borrow::Cow::Borrowed("ఏ"),
+                alloc::borrow::Cow::Borrowed("మ\u{c47}"),
+                alloc::borrow::Cow::Borrowed("జూ"),
+                alloc::borrow::Cow::Borrowed("జు"),
+                alloc::borrow::Cow::Borrowed("ఆ"),
+                alloc::borrow::Cow::Borrowed("స\u{c46}"),
+                alloc::borrow::Cow::Borrowed("అ"),
+                alloc::borrow::Cow::Borrowed("న"),
+                alloc::borrow::Cow::Borrowed("డ\u{c3f}"),
+            ]),
+            short: None,
+            wide: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("జనవర\u{c3f}"),
+                alloc::borrow::Cow::Borrowed("ఫ\u{c3f}బ\u{c4d}రవర\u{c3f}"),
+                alloc::borrow::Cow::Borrowed("మ\u{c3e}ర\u{c4d}చ\u{c3f}"),
+                alloc::borrow::Cow::Borrowed("ఏప\u{c4d}ర\u{c3f}ల\u{c4d}"),
+                alloc::borrow::Cow::Borrowed("మ\u{c47}"),
+                alloc::borrow::Cow::Borrowed("జూన\u{c4d}"),
+                alloc::borrow::Cow::Borrowed("జుల\u{c48}"),
+                alloc::borrow::Cow::Borrowed("ఆగస\u{c4d}టు"),
+                alloc::borrow::Cow::Borrowed("స\u{c46}ప\u{c4d}ట\u{c46}ంబర\u{c4d}"),
+                alloc::borrow::Cow::Borrowed("అక\u{c4d}ట\u{c4b}బర\u{c4d}"),
+                alloc::borrow::Cow::Borrowed("నవంబర\u{c4d}"),
+                alloc::borrow::Cow::Borrowed("డ\u{c3f}స\u{c46}ంబర\u{c4d}"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    weekdays: ::icu_datetime::provider::calendar::weekdays::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::weekdays::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("ఆద\u{c3f}"),
+                alloc::borrow::Cow::Borrowed("స\u{c4b}మ"),
+                alloc::borrow::Cow::Borrowed("మంగళ"),
+                alloc::borrow::Cow::Borrowed("బుధ"),
+                alloc::borrow::Cow::Borrowed("గురు"),
+                alloc::borrow::Cow::Borrowed("శుక\u{c4d}ర"),
+                alloc::borrow::Cow::Borrowed("శన\u{c3f}"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("ఆ"),
+                alloc::borrow::Cow::Borrowed("స\u{c4b}"),
+                alloc::borrow::Cow::Borrowed("మ"),
+                alloc::borrow::Cow::Borrowed("బు"),
+                alloc::borrow::Cow::Borrowed("గు"),
+                alloc::borrow::Cow::Borrowed("శు"),
+                alloc::borrow::Cow::Borrowed("శ"),
+            ]),
+            short: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("ఆద\u{c3f}"),
+                alloc::borrow::Cow::Borrowed("స\u{c4b}మ"),
+                alloc::borrow::Cow::Borrowed("మం"),
+                alloc::borrow::Cow::Borrowed("బుధ"),
+                alloc::borrow::Cow::Borrowed("గురు"),
+                alloc::borrow::Cow::Borrowed("శుక\u{c4d}ర"),
+                alloc::borrow::Cow::Borrowed("శన\u{c3f}"),
+            ])),
+            wide: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("ఆద\u{c3f}వ\u{c3e}రం"),
+                alloc::borrow::Cow::Borrowed("స\u{c4b}మవ\u{c3e}రం"),
+                alloc::borrow::Cow::Borrowed("మంగళవ\u{c3e}రం"),
+                alloc::borrow::Cow::Borrowed("బుధవ\u{c3e}రం"),
+                alloc::borrow::Cow::Borrowed("గురువ\u{c3e}రం"),
+                alloc::borrow::Cow::Borrowed("శుక\u{c4d}రవ\u{c3e}రం"),
+                alloc::borrow::Cow::Borrowed("శన\u{c3f}వ\u{c3e}రం"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    eras: ::icu_datetime::provider::calendar::Eras {
+        names: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 43u8, 0u8, 77u8, 0u8, 83u8, 0u8, 88u8,
+                        0u8, 93u8, 0u8, 99u8, 0u8, 224u8, 176u8, 149u8, 224u8, 177u8, 141u8,
+                        224u8, 176u8, 176u8, 224u8, 177u8, 128u8, 224u8, 176u8, 184u8, 224u8,
+                        177u8, 141u8, 224u8, 176u8, 164u8, 224u8, 177u8, 129u8, 32u8, 224u8,
+                        176u8, 170u8, 224u8, 177u8, 130u8, 224u8, 176u8, 176u8, 224u8, 177u8,
+                        141u8, 224u8, 176u8, 181u8, 224u8, 176u8, 130u8, 224u8, 176u8, 149u8,
+                        224u8, 177u8, 141u8, 224u8, 176u8, 176u8, 224u8, 177u8, 128u8, 224u8,
+                        176u8, 184u8, 224u8, 177u8, 141u8, 224u8, 176u8, 164u8, 224u8, 177u8,
+                        129u8, 32u8, 224u8, 176u8, 182u8, 224u8, 176u8, 149u8, 224u8, 176u8,
+                        130u8, 72u8, 101u8, 105u8, 115u8, 101u8, 105u8, 77u8, 101u8, 105u8,
+                        106u8, 105u8, 82u8, 101u8, 105u8, 119u8, 97u8, 83u8, 104u8, 197u8,
+                        141u8, 119u8, 97u8, 84u8, 97u8, 105u8, 115u8, 104u8, 197u8, 141u8,
+                    ])
+                },
+            )
+        },
+        abbr: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 18u8, 0u8, 33u8, 0u8, 39u8, 0u8, 44u8,
+                        0u8, 49u8, 0u8, 55u8, 0u8, 224u8, 176u8, 149u8, 224u8, 177u8, 141u8,
+                        224u8, 176u8, 176u8, 224u8, 177u8, 128u8, 224u8, 176u8, 170u8, 224u8,
+                        177u8, 130u8, 224u8, 176u8, 149u8, 224u8, 177u8, 141u8, 224u8, 176u8,
+                        176u8, 224u8, 177u8, 128u8, 224u8, 176u8, 182u8, 72u8, 101u8, 105u8,
+                        115u8, 101u8, 105u8, 77u8, 101u8, 105u8, 106u8, 105u8, 82u8, 101u8,
+                        105u8, 119u8, 97u8, 83u8, 104u8, 197u8, 141u8, 119u8, 97u8, 84u8, 97u8,
+                        105u8, 115u8, 104u8, 197u8, 141u8,
+                    ])
+                },
+            )
+        },
+        narrow: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 3u8, 0u8, 5u8, 0u8, 11u8, 0u8, 16u8, 0u8,
+                        21u8, 0u8, 26u8, 0u8, 98u8, 99u8, 101u8, 99u8, 101u8, 104u8, 101u8,
+                        105u8, 115u8, 101u8, 105u8, 109u8, 101u8, 105u8, 106u8, 105u8, 114u8,
+                        101u8, 105u8, 119u8, 97u8, 115u8, 104u8, 111u8, 119u8, 97u8, 116u8,
+                        97u8, 105u8, 115u8, 104u8, 111u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        7u8, 0u8, 0u8, 0u8, 0u8, 0u8, 18u8, 0u8, 33u8, 0u8, 34u8, 0u8, 35u8,
+                        0u8, 36u8, 0u8, 37u8, 0u8, 224u8, 176u8, 149u8, 224u8, 177u8, 141u8,
+                        224u8, 176u8, 176u8, 224u8, 177u8, 128u8, 224u8, 176u8, 170u8, 224u8,
+                        177u8, 130u8, 224u8, 176u8, 149u8, 224u8, 177u8, 141u8, 224u8, 176u8,
+                        176u8, 224u8, 177u8, 128u8, 224u8, 176u8, 182u8, 72u8, 77u8, 82u8,
+                        83u8, 84u8,
+                    ])
+                },
+            )
+        },
+    },
+}

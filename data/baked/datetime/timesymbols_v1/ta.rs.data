@@ -1,0 +1,26 @@
+::icu_datetime::provider::calendar::TimeSymbolsV1 {
+    day_periods: ::icu_datetime::provider::calendar::day_periods::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::day_periods::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("முற\u{bcd}பகல\u{bcd}"),
+                pm: alloc::borrow::Cow::Borrowed("பிற\u{bcd}பகல\u{bcd}"),
+                noon: Some(alloc::borrow::Cow::Borrowed("நண\u{bcd}பகல\u{bcd}")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("நள\u{bcd}ளிரவு")),
+            },
+            narrow: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("மு.ப"),
+                pm: alloc::borrow::Cow::Borrowed("பி.ப"),
+                noon: Some(alloc::borrow::Cow::Borrowed("நண\u{bcd}.")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("நள\u{bcd}.")),
+            },
+            short: None,
+            wide: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("முற\u{bcd}பகல\u{bcd}"),
+                pm: alloc::borrow::Cow::Borrowed("பிற\u{bcd}பகல\u{bcd}"),
+                noon: Some(alloc::borrow::Cow::Borrowed("நண\u{bcd}பகல\u{bcd}")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("நள\u{bcd}ளிரவு")),
+            },
+        },
+        stand_alone: None,
+    },
+}

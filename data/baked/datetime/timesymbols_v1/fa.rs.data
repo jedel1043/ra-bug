@@ -1,0 +1,26 @@
+::icu_datetime::provider::calendar::TimeSymbolsV1 {
+    day_periods: ::icu_datetime::provider::calendar::day_periods::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::day_periods::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("ق.ظ."),
+                pm: alloc::borrow::Cow::Borrowed("ب.ظ."),
+                noon: None,
+                midnight: None,
+            },
+            narrow: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("ق"),
+                pm: alloc::borrow::Cow::Borrowed("ب"),
+                noon: None,
+                midnight: None,
+            },
+            short: None,
+            wide: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("قبل\u{200c}ازظهر"),
+                pm: alloc::borrow::Cow::Borrowed("بعدازظهر"),
+                noon: None,
+                midnight: None,
+            },
+        },
+        stand_alone: None,
+    },
+}

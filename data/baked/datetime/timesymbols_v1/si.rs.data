@@ -1,0 +1,44 @@
+::icu_datetime::provider::calendar::TimeSymbolsV1 {
+    day_periods: ::icu_datetime::provider::calendar::day_periods::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::day_periods::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("පෙ.ව."),
+                pm: alloc::borrow::Cow::Borrowed("ප.ව."),
+                noon: Some(alloc::borrow::Cow::Borrowed(
+                    "මධ\u{dca}\u{200d}ය\u{dcf}හ\u{dca}නය",
+                )),
+                midnight: Some(alloc::borrow::Cow::Borrowed("මැද\u{dd2}යම")),
+            },
+            narrow: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("පෙ"),
+                pm: alloc::borrow::Cow::Borrowed("ප"),
+                noon: Some(alloc::borrow::Cow::Borrowed("ම")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("මැ")),
+            },
+            short: None,
+            wide: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("පෙ.ව."),
+                pm: alloc::borrow::Cow::Borrowed("ප.ව."),
+                noon: Some(alloc::borrow::Cow::Borrowed(
+                    "මධ\u{dca}\u{200d}ය\u{dcf}හ\u{dca}නය",
+                )),
+                midnight: Some(alloc::borrow::Cow::Borrowed("මැද\u{dd2}යම")),
+            },
+        },
+        stand_alone: Some(
+            ::icu_datetime::provider::calendar::day_periods::StandAloneWidthsV1 {
+                abbreviated: None,
+                narrow: Some(::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                    am: alloc::borrow::Cow::Borrowed("පෙ.ව."),
+                    pm: alloc::borrow::Cow::Borrowed("ප.ව."),
+                    noon: Some(alloc::borrow::Cow::Borrowed(
+                        "මධ\u{dca}\u{200d}ය\u{dcf}හ\u{dca}නය",
+                    )),
+                    midnight: Some(alloc::borrow::Cow::Borrowed("මැද\u{dd2}යම")),
+                }),
+                short: None,
+                wide: None,
+            },
+        ),
+    },
+}

@@ -1,0 +1,138 @@
+::icu_datetime::provider::calendar::DateSymbolsV1 {
+    months: ::icu_datetime::provider::calendar::months::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::months::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("čaitra"),
+                alloc::borrow::Cow::Borrowed("vaišákh"),
+                alloc::borrow::Cow::Borrowed("džjéšth"),
+                alloc::borrow::Cow::Borrowed("ášádh"),
+                alloc::borrow::Cow::Borrowed("šrávana"),
+                alloc::borrow::Cow::Borrowed("bhádrapad"),
+                alloc::borrow::Cow::Borrowed("ášvin"),
+                alloc::borrow::Cow::Borrowed("kártik"),
+                alloc::borrow::Cow::Borrowed("agrahajana"),
+                alloc::borrow::Cow::Borrowed("pauš"),
+                alloc::borrow::Cow::Borrowed("mágh"),
+                alloc::borrow::Cow::Borrowed("phálgun"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("1"),
+                alloc::borrow::Cow::Borrowed("2"),
+                alloc::borrow::Cow::Borrowed("3"),
+                alloc::borrow::Cow::Borrowed("4"),
+                alloc::borrow::Cow::Borrowed("5"),
+                alloc::borrow::Cow::Borrowed("6"),
+                alloc::borrow::Cow::Borrowed("7"),
+                alloc::borrow::Cow::Borrowed("8"),
+                alloc::borrow::Cow::Borrowed("9"),
+                alloc::borrow::Cow::Borrowed("10"),
+                alloc::borrow::Cow::Borrowed("11"),
+                alloc::borrow::Cow::Borrowed("12"),
+            ]),
+            short: None,
+            wide: ::icu_datetime::provider::calendar::months::SymbolsV1::SolarTwelve([
+                alloc::borrow::Cow::Borrowed("čaitra"),
+                alloc::borrow::Cow::Borrowed("vaišákh"),
+                alloc::borrow::Cow::Borrowed("džjéšth"),
+                alloc::borrow::Cow::Borrowed("ášádh"),
+                alloc::borrow::Cow::Borrowed("šrávana"),
+                alloc::borrow::Cow::Borrowed("bhádrapad"),
+                alloc::borrow::Cow::Borrowed("ášvin"),
+                alloc::borrow::Cow::Borrowed("kártik"),
+                alloc::borrow::Cow::Borrowed("agrahajana"),
+                alloc::borrow::Cow::Borrowed("pauš"),
+                alloc::borrow::Cow::Borrowed("mágh"),
+                alloc::borrow::Cow::Borrowed("phálgun"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    weekdays: ::icu_datetime::provider::calendar::weekdays::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::weekdays::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("ne"),
+                alloc::borrow::Cow::Borrowed("po"),
+                alloc::borrow::Cow::Borrowed("ut"),
+                alloc::borrow::Cow::Borrowed("st"),
+                alloc::borrow::Cow::Borrowed("št"),
+                alloc::borrow::Cow::Borrowed("pi"),
+                alloc::borrow::Cow::Borrowed("so"),
+            ]),
+            narrow: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("n"),
+                alloc::borrow::Cow::Borrowed("p"),
+                alloc::borrow::Cow::Borrowed("u"),
+                alloc::borrow::Cow::Borrowed("s"),
+                alloc::borrow::Cow::Borrowed("š"),
+                alloc::borrow::Cow::Borrowed("p"),
+                alloc::borrow::Cow::Borrowed("s"),
+            ]),
+            short: Some(::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("ne"),
+                alloc::borrow::Cow::Borrowed("po"),
+                alloc::borrow::Cow::Borrowed("ut"),
+                alloc::borrow::Cow::Borrowed("st"),
+                alloc::borrow::Cow::Borrowed("št"),
+                alloc::borrow::Cow::Borrowed("pi"),
+                alloc::borrow::Cow::Borrowed("so"),
+            ])),
+            wide: ::icu_datetime::provider::calendar::weekdays::SymbolsV1([
+                alloc::borrow::Cow::Borrowed("nedeľa"),
+                alloc::borrow::Cow::Borrowed("pondelok"),
+                alloc::borrow::Cow::Borrowed("utorok"),
+                alloc::borrow::Cow::Borrowed("streda"),
+                alloc::borrow::Cow::Borrowed("štvrtok"),
+                alloc::borrow::Cow::Borrowed("piatok"),
+                alloc::borrow::Cow::Borrowed("sobota"),
+            ]),
+        },
+        stand_alone: None,
+    },
+    eras: ::icu_datetime::provider::calendar::Eras {
+        names: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 115u8, 97u8, 107u8, 97u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 197u8, 160u8, 97u8, 107u8, 97u8,
+                    ])
+                },
+            )
+        },
+        abbr: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 115u8, 97u8, 107u8, 97u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 197u8, 160u8, 97u8, 107u8, 97u8,
+                    ])
+                },
+            )
+        },
+        narrow: unsafe {
+            #[allow(unused_unsafe)]
+            ::zerovec::ZeroMap::from_parts_unchecked(
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 115u8, 97u8, 107u8, 97u8,
+                    ])
+                },
+                unsafe {
+                    ::zerovec::VarZeroVec::from_bytes_unchecked(&[
+                        1u8, 0u8, 0u8, 0u8, 0u8, 0u8, 197u8, 160u8, 97u8, 107u8, 97u8,
+                    ])
+                },
+            )
+        },
+    },
+}

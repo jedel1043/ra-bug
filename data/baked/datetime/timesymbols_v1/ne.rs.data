@@ -1,0 +1,26 @@
+::icu_datetime::provider::calendar::TimeSymbolsV1 {
+    day_periods: ::icu_datetime::provider::calendar::day_periods::ContextsV1 {
+        format: ::icu_datetime::provider::calendar::day_periods::FormatWidthsV1 {
+            abbreviated: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("प\u{942}र\u{94d}वाह\u{94d}न"),
+                pm: alloc::borrow::Cow::Borrowed("अपराह\u{94d}न"),
+                noon: Some(alloc::borrow::Cow::Borrowed("मध\u{94d}यान\u{94d}ह")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("मध\u{94d}यरात")),
+            },
+            narrow: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("प\u{942}र\u{94d}वाह\u{94d}न"),
+                pm: alloc::borrow::Cow::Borrowed("अपराह\u{94d}न"),
+                noon: Some(alloc::borrow::Cow::Borrowed("मध\u{94d}यान\u{94d}ह")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("मध\u{94d}यरात")),
+            },
+            short: None,
+            wide: ::icu_datetime::provider::calendar::day_periods::SymbolsV1 {
+                am: alloc::borrow::Cow::Borrowed("प\u{942}र\u{94d}वाह\u{94d}न"),
+                pm: alloc::borrow::Cow::Borrowed("अपराह\u{94d}न"),
+                noon: Some(alloc::borrow::Cow::Borrowed("मध\u{94d}यान\u{94d}ह")),
+                midnight: Some(alloc::borrow::Cow::Borrowed("मध\u{94d}यरात")),
+            },
+        },
+        stand_alone: None,
+    },
+}
